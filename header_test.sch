@@ -1,0 +1,4836 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:gsg-symbols
+LIBS:header_test-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "GreatFET Neighbor Template"
+Date "2015-09-24"
+Rev ""
+Comp "Copyright 2015 Michael Ossmann"
+Comment1 "License: GPL v2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2000 4300 1    40   ~ 0
+P2_8
+$Comp
+L CONN_02X20 J51
+U 1 1 5A3C1DE3
+P 2350 3850
+F 0 "J51" H 2350 4900 50  0000 C CNN
+F 1 "NEIGHBOR2_top" V 2350 3850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD" H 2350 2900 60  0001 C CNN
+F 3 "" H 2350 2900 60  0000 C CNN
+F 4 "Samtec" H 2350 3850 60  0001 C CNN "Manufacturer"
+F 5 "SSM-120-L-DV-LC" H 2350 3850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 2350 3850 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 2350 3850 60  0001 C CNN "Note"
+	1    2350 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 1400 3400 3    40   ~ 0
+VBUS
+$Comp
+L CONN_02X20 J52
+U 1 1 5A3C1DE7
+P 2350 6250
+F 0 "J52" H 2350 7300 50  0000 C CNN
+F 1 "NEIGHBOR1_top" V 2350 6250 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD" H 2350 5300 60  0001 C CNN
+F 3 "" H 2350 5300 60  0000 C CNN
+F 4 "Samtec" H 2350 6250 60  0001 C CNN "Manufacturer"
+F 5 "SSM-120-L-DV-LC" H 2350 6250 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 2350 6250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 2350 6250 60  0001 C CNN "Note"
+	1    2350 6250
+	0    -1   -1   0   
+$EndComp
+Text Label 1500 5800 3    40   ~ 0
+P0_0
+Text Label 1500 6700 1    40   ~ 0
+P4_9
+Text Label 1600 5800 3    40   ~ 0
+P0_1
+Text Label 1600 6700 1    40   ~ 0
+P4_10
+Text Label 1700 5800 3    40   ~ 0
+P5_0
+Text Label 1700 6700 1    40   ~ 0
+P1_0
+Text Label 1800 6700 1    40   ~ 0
+P5_1
+Text Label 1800 5800 3    40   ~ 0
+P1_1
+Text Label 1900 5800 3    40   ~ 0
+P1_2
+Text Label 3300 5800 3    40   ~ 0
+P1_3
+Text Label 2000 5800 3    40   ~ 0
+P5_2
+Text Label 3300 6700 1    40   ~ 0
+P1_4
+Text Label 2000 6700 1    40   ~ 0
+P1_5
+Text Label 2100 5800 3    40   ~ 0
+P1_6
+Text Label 2100 6700 1    40   ~ 0
+P1_7
+Text Label 2200 5800 3    40   ~ 0
+P1_8
+Text Label 2200 6700 1    40   ~ 0
+P1_9
+Text Label 2300 5800 3    40   ~ 0
+P1_10
+Text Label 2300 6700 1    40   ~ 0
+P5_3
+Text Label 2400 5800 3    40   ~ 0
+P1_11
+Text Label 2400 6700 1    40   ~ 0
+P1_12
+Text Label 2500 5800 3    40   ~ 0
+P5_4
+Text Label 2500 6700 1    40   ~ 0
+P5_5
+Text Label 2600 5800 3    40   ~ 0
+P1_13
+Text Label 2600 6700 1    40   ~ 0
+P1_14
+Text Label 2700 5800 3    40   ~ 0
+P1_15
+Text Label 2700 6700 1    40   ~ 0
+P5_6
+Text Label 2800 5800 3    40   ~ 0
+P1_16
+Text Label 2800 6700 1    40   ~ 0
+P5_7
+Text Label 2900 5800 3    40   ~ 0
+P1_17
+Text Label 2900 6700 1    40   ~ 0
+P1_18
+Text Label 3200 5800 3    40   ~ 0
+P1_19
+Text Label 3000 6700 1    40   ~ 0
+P9_5
+Text Label 3200 6700 1    40   ~ 0
+P1_20
+Text Label 3000 5800 3    40   ~ 0
+P9_6
+Text Label 1900 6700 1    40   ~ 0
+CLK0
+Text Label 3100 5800 3    40   ~ 0
+P6_0
+Text Label 3100 6700 1    40   ~ 0
+P2_0
+Text Notes 3300 5750 1    40   ~ 0
+MISO
+Text Notes 3300 6750 3    40   ~ 0
+MOSI
+Text Notes 3200 5750 1    40   ~ 0
+SCK
+Text Notes 3200 6750 3    40   ~ 0
+SSEL
+Text Label 3300 3300 3    40   ~ 0
+I2C0_SCL
+Text Label 3300 4400 1    40   ~ 0
+I2C0_SDA
+Text Label 3100 3400 3    40   ~ 0
+P6_3
+Text Label 3100 4300 1    40   ~ 0
+P2_1
+Text Label 3000 3400 3    40   ~ 0
+P6_6
+Text Label 3000 4300 1    40   ~ 0
+P2_2
+Text Label 2900 4300 1    40   ~ 0
+P6_7
+Text Label 2800 4300 1    40   ~ 0
+P6_8
+Text Label 2300 3400 3    40   ~ 0
+P2_3
+Text Label 2300 4300 1    40   ~ 0
+P2_4
+Text Label 2200 3400 3    40   ~ 0
+P2_5
+Text Label 2100 4300 1    40   ~ 0
+P2_6
+Text Label 1900 3400 3    40   ~ 0
+CLK2
+Text Label 2700 4300 1    40   ~ 0
+P7_0
+Text Label 2600 3400 3    40   ~ 0
+P3_0
+Text Label 2600 4300 1    40   ~ 0
+P7_1
+Text Label 2500 3400 3    40   ~ 0
+P3_1
+Text Label 2500 4300 1    40   ~ 0
+P7_2
+Text Label 2400 3400 3    40   ~ 0
+P3_2
+Text Label 2900 3400 3    40   ~ 0
+P3_3
+Text Label 2700 3400 3    40   ~ 0
+P3_4
+Text Label 2400 4300 1    40   ~ 0
+PF_4
+Text Label 3200 4300 1    40   ~ 0
+P3_5
+Text Label 3200 3400 3    40   ~ 0
+P3_6
+Text Label 2800 3400 3    40   ~ 0
+P3_7
+Text Label 2100 3400 3    40   ~ 0
+P7_7
+Text Label 1500 3400 3    40   ~ 0
+P4_0
+Text Label 1600 4350 1    40   ~ 0
+ADC0_0
+Text Label 1800 4300 1    40   ~ 0
+P4_3
+Text Label 1700 3400 3    40   ~ 0
+P4_2
+Text Label 1700 4300 1    40   ~ 0
+P4_4
+Text Label 1600 3400 3    40   ~ 0
+P4_5
+Text Label 1800 3400 3    40   ~ 0
+P4_6
+Text Label 1900 4300 1    40   ~ 0
+P4_7
+Text Label 1500 4300 1    40   ~ 0
+P4_8
+Text Label 2200 4400 1    40   ~ 0
+WAKEUP0
+Text Label 2000 3400 3    40   ~ 0
+P2_7
+Text Notes 2000 3250 3    40   ~ 0
+ISP
+Text Notes 2000 4450 1    40   ~ 0
+DFU
+Text Notes 1800 5750 1    40   ~ 0
+BOOT
+Text Notes 1900 5600 3    40   ~ 0
+BOOT
+Text Label 3100 8100 1    40   ~ 0
+P6_1
+Text Label 3000 8100 1    40   ~ 0
+P6_2
+Text Label 1500 8100 1    40   ~ 0
+P6_4
+Text Label 1600 8100 1    40   ~ 0
+P6_5
+Text Label 2900 8100 1    40   ~ 0
+P6_9
+Text Label 2800 8100 1    40   ~ 0
+P6_10
+Text Label 1900 8100 1    40   ~ 0
+P2_9
+Text Label 2700 8100 1    40   ~ 0
+P2_10
+Text Label 2600 8100 1    40   ~ 0
+P2_11
+Text Label 2000 8100 1    40   ~ 0
+P2_12
+Text Label 2100 8100 1    40   ~ 0
+P2_13
+$Comp
+L CONN_01X20 J53
+U 1 1 5A3C1DEA
+P 2350 7550
+F 0 "J53" H 2350 8600 50  0000 C CNN
+F 1 "BONUS_ROW_btm" V 2450 7550 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20-SMD-RA" H 2350 7550 60  0001 C CNN
+F 3 "" H 2350 7550 60  0000 C CNN
+F 4 "Samtec" H 2350 7550 60  0001 C CNN "Manufacturer"
+F 5 "SSW-120-22-G-S-RA" H 2350 7550 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 2350 7550 60  0001 C CNN "Description"
+F 7 "DNP" V 2350 7550 60  0000 C CNN "Note"
+	1    2350 7550
+	0    -1   -1   0   
+$EndComp
+Text Label 1800 8100 1    40   ~ 0
+ADC0_2
+Text Label 1700 8100 1    40   ~ 0
+ADC0_5
+$Comp
+L CONN_01X01 MH3
+U 1 1 5A3C1DEB
+P 13650 850
+F 0 "MH3" H 13600 950 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 13750 850 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 13650 850 60  0001 C CNN
+F 3 "" H 13650 850 60  0000 C CNN
+F 4 "DNP" H 13650 850 60  0001 C CNN "Note"
+	1    13650 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5A3C1DEC
+P 13650 1150
+F 0 "#PWR3" H 13650 900 50  0001 C CNN
+F 1 "GND" H 13650 1000 50  0000 C CNN
+F 2 "" H 13650 1150 60  0000 C CNN
+F 3 "" H 13650 1150 60  0000 C CNN
+	1    13650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 MH4
+U 1 1 5A3C1DED
+P 14150 1000
+F 0 "MH4" H 14100 1100 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 14250 1000 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 14150 1000 60  0001 C CNN
+F 3 "" H 14150 1000 60  0000 C CNN
+F 4 "DNP" H 14150 1000 60  0001 C CNN "Note"
+	1    14150 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 5A3C1DEE
+P 14150 1300
+F 0 "#PWR4" H 14150 1050 50  0001 C CNN
+F 1 "GND" H 14150 1150 50  0000 C CNN
+F 2 "" H 14150 1300 60  0000 C CNN
+F 3 "" H 14150 1300 60  0000 C CNN
+	1    14150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 MH1
+U 1 1 5A3C1DEF
+P 12650 850
+F 0 "MH1" H 12600 950 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 12750 850 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 12650 850 60  0001 C CNN
+F 3 "" H 12650 850 60  0000 C CNN
+F 4 "DNP" H 12650 850 60  0001 C CNN "Note"
+	1    12650 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 5A3C1DF0
+P 12650 1150
+F 0 "#PWR1" H 12650 900 50  0001 C CNN
+F 1 "GND" H 12650 1000 50  0000 C CNN
+F 2 "" H 12650 1150 60  0000 C CNN
+F 3 "" H 12650 1150 60  0000 C CNN
+	1    12650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 MH2
+U 1 1 5A3C1DF1
+P 13150 1000
+F 0 "MH2" H 13100 1100 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 13250 1000 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 13150 1000 60  0001 C CNN
+F 3 "" H 13150 1000 60  0000 C CNN
+F 4 "DNP" H 13150 1000 60  0001 C CNN "Note"
+	1    13150 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5A3C1DF2
+P 13150 1300
+F 0 "#PWR2" H 13150 1050 50  0001 C CNN
+F 1 "GND" H 13150 1150 50  0000 C CNN
+F 2 "" H 13150 1300 60  0000 C CNN
+F 3 "" H 13150 1300 60  0000 C CNN
+	1    13150 1300
+	1    0    0    -1  
+$EndComp
+Text Label 2500 8100 1    40   ~ 0
+VBAT
+Text Label 2400 8100 1    40   ~ 0
+RESET
+Text Label 2200 8100 1    40   ~ 0
+RTC_ALARM
+Wire Wire Line
+	1400 6700 1400 6500
+Wire Wire Line
+	1400 6000 1400 5800
+Wire Wire Line
+	1500 5800 1500 6000
+Wire Wire Line
+	1500 6700 1500 6500
+Wire Wire Line
+	1400 4300 1400 4100
+Wire Wire Line
+	1600 6700 1600 6500
+Wire Wire Line
+	1700 6700 1700 6500
+Wire Wire Line
+	1800 6700 1800 6500
+Wire Wire Line
+	1900 6700 1900 6500
+Wire Wire Line
+	2000 6700 2000 6500
+Wire Wire Line
+	2100 6700 2100 6500
+Wire Wire Line
+	2200 6700 2200 6500
+Wire Wire Line
+	2300 6700 2300 6500
+Wire Wire Line
+	2400 6700 2400 6500
+Wire Wire Line
+	2500 6700 2500 6500
+Wire Wire Line
+	2600 6700 2600 6500
+Wire Wire Line
+	2700 6700 2700 6500
+Wire Wire Line
+	2800 6700 2800 6500
+Wire Wire Line
+	2900 6700 2900 6500
+Wire Wire Line
+	3000 6700 3000 6500
+Wire Wire Line
+	3100 6700 3100 6500
+Wire Wire Line
+	3100 5800 3100 6000
+Wire Wire Line
+	3000 6000 3000 5800
+Wire Wire Line
+	2900 5800 2900 6000
+Wire Wire Line
+	2800 6000 2800 5800
+Wire Wire Line
+	2700 5800 2700 6000
+Wire Wire Line
+	2600 6000 2600 5800
+Wire Wire Line
+	2500 5800 2500 6000
+Wire Wire Line
+	2400 6000 2400 5800
+Wire Wire Line
+	2300 5800 2300 6000
+Wire Wire Line
+	2200 6000 2200 5800
+Wire Wire Line
+	2100 5800 2100 6000
+Wire Wire Line
+	2000 6000 2000 5800
+Wire Wire Line
+	1900 5800 1900 6000
+Wire Wire Line
+	1800 6000 1800 5800
+Wire Wire Line
+	1700 5800 1700 6000
+Wire Wire Line
+	1600 6000 1600 5800
+Wire Wire Line
+	3200 6700 3200 6500
+Wire Wire Line
+	3300 6500 3300 6700
+Wire Wire Line
+	3300 6000 3300 5800
+Wire Wire Line
+	3200 5800 3200 6000
+Wire Wire Line
+	3200 4300 3200 4100
+Wire Wire Line
+	3200 3600 3200 3400
+Wire Wire Line
+	3100 3400 3100 3600
+Wire Wire Line
+	3100 4100 3100 4300
+Wire Wire Line
+	3000 4300 3000 4100
+Wire Wire Line
+	3000 3400 3000 3600
+Wire Wire Line
+	2900 3400 2900 3600
+Wire Wire Line
+	2800 3400 2800 3600
+Wire Wire Line
+	2900 4100 2900 4300
+Wire Wire Line
+	2800 4300 2800 4100
+Wire Wire Line
+	2700 4100 2700 4300
+Wire Wire Line
+	2600 3400 2600 3600
+Wire Wire Line
+	3300 3300 3300 3600
+Wire Wire Line
+	3300 4100 3300 4400
+Wire Wire Line
+	2700 3400 2700 3600
+Wire Wire Line
+	2600 4300 2600 4100
+Wire Wire Line
+	2500 4300 2500 4100
+Wire Wire Line
+	2500 3400 2500 3600
+Wire Wire Line
+	2400 3400 2400 3600
+Wire Wire Line
+	2400 4300 2400 4100
+Wire Wire Line
+	2300 3400 2300 3600
+Wire Wire Line
+	2300 4100 2300 4300
+Wire Wire Line
+	2200 3400 2200 3600
+Wire Wire Line
+	2200 4100 2200 4400
+Wire Wire Line
+	2100 4300 2100 4100
+Wire Wire Line
+	2100 3400 2100 3600
+Wire Wire Line
+	2000 3400 2000 3600
+Wire Wire Line
+	2000 4300 2000 4100
+Wire Wire Line
+	1900 3400 1900 3600
+Wire Wire Line
+	1900 4300 1900 4100
+Wire Wire Line
+	1800 3400 1800 3600
+Wire Wire Line
+	1800 4300 1800 4100
+Wire Wire Line
+	1700 3400 1700 3600
+Wire Wire Line
+	1700 4100 1700 4300
+Wire Wire Line
+	1600 4350 1600 4100
+Wire Wire Line
+	1600 3400 1600 3600
+Wire Wire Line
+	1500 4300 1500 4100
+Wire Wire Line
+	1500 3600 1500 3400
+Wire Wire Line
+	3100 8100 3100 7750
+Wire Wire Line
+	3000 8100 3000 7750
+Wire Wire Line
+	2900 8100 2900 7750
+Wire Wire Line
+	2800 8100 2800 7750
+Wire Wire Line
+	2700 8100 2700 7750
+Wire Wire Line
+	2600 8100 2600 7750
+Wire Wire Line
+	2500 8100 2500 7750
+Wire Wire Line
+	2400 8100 2400 7750
+Wire Wire Line
+	2200 8100 2200 7750
+Wire Wire Line
+	2100 8100 2100 7750
+Wire Wire Line
+	2000 8100 2000 7750
+Wire Wire Line
+	1400 8100 1400 7750
+Wire Wire Line
+	3300 7750 3300 8100
+Wire Wire Line
+	1900 8100 1900 7750
+Wire Wire Line
+	1800 8100 1800 7750
+Wire Wire Line
+	1700 8100 1700 7750
+Wire Wire Line
+	1600 8100 1600 7750
+Wire Wire Line
+	1500 8100 1500 7750
+Wire Wire Line
+	13650 1050 13650 1150
+Wire Wire Line
+	14150 1200 14150 1300
+Wire Wire Line
+	12650 1050 12650 1150
+Wire Wire Line
+	13150 1200 13150 1300
+Wire Wire Line
+	3200 8100 3200 7750
+Wire Wire Line
+	2300 8100 2300 7750
+$Comp
+L TEST_1P J6
+U 1 1 5A3C22D4
+P 1500 3400
+F 0 "J6" H 1500 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1500 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1700 3400 50  0001 C CNN
+F 3 "" H 1700 3400 50  0001 C CNN
+	1    1500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J11
+U 1 1 5A3C2383
+P 1600 3400
+F 0 "J11" H 1600 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1600 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 3400 50  0001 C CNN
+F 3 "" H 1800 3400 50  0001 C CNN
+	1    1600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J16
+U 1 1 5A3C23C9
+P 1700 3400
+F 0 "J16" H 1700 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1700 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 3400 50  0001 C CNN
+F 3 "" H 1900 3400 50  0001 C CNN
+	1    1700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J21
+U 1 1 5A3C23FF
+P 1800 3400
+F 0 "J21" H 1800 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1800 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 3400 50  0001 C CNN
+F 3 "" H 2000 3400 50  0001 C CNN
+	1    1800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J26
+U 1 1 5A3C2438
+P 1900 3400
+F 0 "J26" H 1900 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1900 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 3400 50  0001 C CNN
+F 3 "" H 2100 3400 50  0001 C CNN
+	1    1900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J31
+U 1 1 5A3C246C
+P 2000 3400
+F 0 "J31" H 2000 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2000 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 3400 50  0001 C CNN
+F 3 "" H 2200 3400 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J36
+U 1 1 5A3C24A3
+P 2100 3400
+F 0 "J36" H 2100 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2100 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 3400 50  0001 C CNN
+F 3 "" H 2300 3400 50  0001 C CNN
+	1    2100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J41
+U 1 1 5A3C24E5
+P 2200 3400
+F 0 "J41" H 2200 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2200 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 3400 50  0001 C CNN
+F 3 "" H 2400 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J46
+U 1 1 5A3C2522
+P 2300 3400
+F 0 "J46" H 2300 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2300 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J54
+U 1 1 5A3C2562
+P 2400 3400
+F 0 "J54" H 2400 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2400 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 3400 50  0001 C CNN
+F 3 "" H 2600 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J59
+U 1 1 5A3C25A7
+P 2500 3400
+F 0 "J59" H 2500 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2500 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 3400 50  0001 C CNN
+F 3 "" H 2700 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J64
+U 1 1 5A3C25ED
+P 2600 3400
+F 0 "J64" H 2600 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2600 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+	1    2600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J69
+U 1 1 5A3C263A
+P 2700 3400
+F 0 "J69" H 2700 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2700 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 3400 50  0001 C CNN
+F 3 "" H 2900 3400 50  0001 C CNN
+	1    2700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J74
+U 1 1 5A3C2688
+P 2800 3400
+F 0 "J74" H 2800 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2800 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 3400 50  0001 C CNN
+F 3 "" H 3000 3400 50  0001 C CNN
+	1    2800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J79
+U 1 1 5A3C26DF
+P 2900 3400
+F 0 "J79" H 2900 3670 50  0000 C CNN
+F 1 "TEST_1P" H 2900 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 3400 50  0001 C CNN
+F 3 "" H 3100 3400 50  0001 C CNN
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J84
+U 1 1 5A3C2731
+P 3000 3400
+F 0 "J84" H 3000 3670 50  0000 C CNN
+F 1 "TEST_1P" H 3000 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3200 3400 50  0001 C CNN
+F 3 "" H 3200 3400 50  0001 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J89
+U 1 1 5A3C2786
+P 3100 3400
+F 0 "J89" H 3100 3670 50  0000 C CNN
+F 1 "TEST_1P" H 3100 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J94
+U 1 1 5A3C27E2
+P 3200 3400
+F 0 "J94" H 3200 3670 50  0000 C CNN
+F 1 "TEST_1P" H 3200 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 3400 50  0001 C CNN
+F 3 "" H 3400 3400 50  0001 C CNN
+	1    3200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J99
+U 1 1 5A3C2841
+P 3300 3300
+F 0 "J99" H 3300 3570 50  0000 C CNN
+F 1 "TEST_1P" H 3300 3500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3500 3300 50  0001 C CNN
+F 3 "" H 3500 3300 50  0001 C CNN
+	1    3300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J1
+U 1 1 5A3C28AB
+P 1400 3400
+F 0 "J1" H 1400 3670 50  0000 C CNN
+F 1 "TEST_1P" H 1400 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 3400 50  0001 C CNN
+F 3 "" H 1600 3400 50  0001 C CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J7
+U 1 1 5A3C290C
+P 1500 4300
+F 0 "J7" H 1500 4570 50  0000 C CNN
+F 1 "TEST_1P" H 1500 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1700 4300 50  0001 C CNN
+F 3 "" H 1700 4300 50  0001 C CNN
+	1    1500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J2
+U 1 1 5A3C2A44
+P 1400 4300
+F 0 "J2" H 1400 4570 50  0000 C CNN
+F 1 "TEST_1P" H 1400 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 4300 50  0001 C CNN
+F 3 "" H 1600 4300 50  0001 C CNN
+	1    1400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J12
+U 1 1 5A3C2AAF
+P 1600 4350
+F 0 "J12" H 1600 4620 50  0000 C CNN
+F 1 "TEST_1P" H 1600 4550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 4350 50  0001 C CNN
+F 3 "" H 1800 4350 50  0001 C CNN
+	1    1600 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J17
+U 1 1 5A3C2B1F
+P 1700 4300
+F 0 "J17" H 1700 4570 50  0000 C CNN
+F 1 "TEST_1P" H 1700 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 4300 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J22
+U 1 1 5A3C2B94
+P 1800 4300
+F 0 "J22" H 1800 4570 50  0000 C CNN
+F 1 "TEST_1P" H 1800 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 4300 50  0001 C CNN
+F 3 "" H 2000 4300 50  0001 C CNN
+	1    1800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J27
+U 1 1 5A3C2C06
+P 1900 4300
+F 0 "J27" H 1900 4570 50  0000 C CNN
+F 1 "TEST_1P" H 1900 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 4300 50  0001 C CNN
+F 3 "" H 2100 4300 50  0001 C CNN
+	1    1900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J32
+U 1 1 5A3C2C7B
+P 2000 4300
+F 0 "J32" H 2000 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2000 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J37
+U 1 1 5A3C2CF5
+P 2100 4300
+F 0 "J37" H 2100 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2100 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 4300 50  0001 C CNN
+F 3 "" H 2300 4300 50  0001 C CNN
+	1    2100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J42
+U 1 1 5A3C2D78
+P 2200 4400
+F 0 "J42" H 2200 4670 50  0000 C CNN
+F 1 "TEST_1P" H 2200 4600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 4400 50  0001 C CNN
+F 3 "" H 2400 4400 50  0001 C CNN
+	1    2200 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J47
+U 1 1 5A3C2DF8
+P 2300 4300
+F 0 "J47" H 2300 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2300 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2500 4300 50  0001 C CNN
+F 3 "" H 2500 4300 50  0001 C CNN
+	1    2300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J55
+U 1 1 5A3C2E7D
+P 2400 4300
+F 0 "J55" H 2400 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2400 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 4300 50  0001 C CNN
+F 3 "" H 2600 4300 50  0001 C CNN
+	1    2400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J60
+U 1 1 5A3C2EFF
+P 2500 4300
+F 0 "J60" H 2500 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2500 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+	1    2500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J65
+U 1 1 5A3C2FD2
+P 2600 4300
+F 0 "J65" H 2600 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2600 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 4300 50  0001 C CNN
+F 3 "" H 2800 4300 50  0001 C CNN
+	1    2600 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J70
+U 1 1 5A3C305A
+P 2700 4300
+F 0 "J70" H 2700 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2700 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 4300 50  0001 C CNN
+F 3 "" H 2900 4300 50  0001 C CNN
+	1    2700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J75
+U 1 1 5A3C30E9
+P 2800 4300
+F 0 "J75" H 2800 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2800 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    2800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J80
+U 1 1 5A3C317B
+P 2900 4300
+F 0 "J80" H 2900 4570 50  0000 C CNN
+F 1 "TEST_1P" H 2900 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 4300 50  0001 C CNN
+F 3 "" H 3100 4300 50  0001 C CNN
+	1    2900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J85
+U 1 1 5A3C320C
+P 3000 4300
+F 0 "J85" H 3000 4570 50  0000 C CNN
+F 1 "TEST_1P" H 3000 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3200 4300 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J90
+U 1 1 5A3C32A4
+P 3100 4300
+F 0 "J90" H 3100 4570 50  0000 C CNN
+F 1 "TEST_1P" H 3100 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3300 4300 50  0001 C CNN
+F 3 "" H 3300 4300 50  0001 C CNN
+	1    3100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J95
+U 1 1 5A3C3351
+P 3200 4300
+F 0 "J95" H 3200 4570 50  0000 C CNN
+F 1 "TEST_1P" H 3200 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 4300 50  0001 C CNN
+F 3 "" H 3400 4300 50  0001 C CNN
+	1    3200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J100
+U 1 1 5A3C33EB
+P 3300 4400
+F 0 "J100" H 3300 4670 50  0000 C CNN
+F 1 "TEST_1P" H 3300 4600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3500 4400 50  0001 C CNN
+F 3 "" H 3500 4400 50  0001 C CNN
+	1    3300 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 3600 1400 3400
+$Comp
+L TEST_1P J3
+U 1 1 5A3D778B
+P 1400 5800
+F 0 "J3" H 1400 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1400 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 5800 50  0001 C CNN
+F 3 "" H 1600 5800 50  0001 C CNN
+	1    1400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J8
+U 1 1 5A3D7A0B
+P 1500 5800
+F 0 "J8" H 1500 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1500 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1700 5800 50  0001 C CNN
+F 3 "" H 1700 5800 50  0001 C CNN
+	1    1500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J13
+U 1 1 5A3D7AB2
+P 1600 5800
+F 0 "J13" H 1600 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1600 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 5800 50  0001 C CNN
+F 3 "" H 1800 5800 50  0001 C CNN
+	1    1600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J18
+U 1 1 5A3D7B58
+P 1700 5800
+F 0 "J18" H 1700 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1700 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 5800 50  0001 C CNN
+F 3 "" H 1900 5800 50  0001 C CNN
+	1    1700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J23
+U 1 1 5A3D7C01
+P 1800 5800
+F 0 "J23" H 1800 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1800 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 5800 50  0001 C CNN
+F 3 "" H 2000 5800 50  0001 C CNN
+	1    1800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J28
+U 1 1 5A3D7CAD
+P 1900 5800
+F 0 "J28" H 1900 6070 50  0000 C CNN
+F 1 "TEST_1P" H 1900 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 5800 50  0001 C CNN
+F 3 "" H 2100 5800 50  0001 C CNN
+	1    1900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J33
+U 1 1 5A3D7D5E
+P 2000 5800
+F 0 "J33" H 2000 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2000 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 5800 50  0001 C CNN
+F 3 "" H 2200 5800 50  0001 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J38
+U 1 1 5A3D7E12
+P 2100 5800
+F 0 "J38" H 2100 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2100 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 5800 50  0001 C CNN
+F 3 "" H 2300 5800 50  0001 C CNN
+	1    2100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J43
+U 1 1 5A3D8011
+P 2200 5800
+F 0 "J43" H 2200 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2200 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 5800 50  0001 C CNN
+F 3 "" H 2400 5800 50  0001 C CNN
+	1    2200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J48
+U 1 1 5A3D80CD
+P 2300 5800
+F 0 "J48" H 2300 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2300 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2500 5800 50  0001 C CNN
+F 3 "" H 2500 5800 50  0001 C CNN
+	1    2300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J56
+U 1 1 5A3D8188
+P 2400 5800
+F 0 "J56" H 2400 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2400 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 5800 50  0001 C CNN
+F 3 "" H 2600 5800 50  0001 C CNN
+	1    2400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J61
+U 1 1 5A3D8246
+P 2500 5800
+F 0 "J61" H 2500 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2500 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 5800 50  0001 C CNN
+F 3 "" H 2700 5800 50  0001 C CNN
+	1    2500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J66
+U 1 1 5A3D8307
+P 2600 5800
+F 0 "J66" H 2600 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2600 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 5800 50  0001 C CNN
+F 3 "" H 2800 5800 50  0001 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J71
+U 1 1 5A3D83CF
+P 2700 5800
+F 0 "J71" H 2700 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2700 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 5800 50  0001 C CNN
+F 3 "" H 2900 5800 50  0001 C CNN
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J76
+U 1 1 5A3D849A
+P 2800 5800
+F 0 "J76" H 2800 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2800 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 5800 50  0001 C CNN
+F 3 "" H 3000 5800 50  0001 C CNN
+	1    2800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J81
+U 1 1 5A3D8564
+P 2900 5800
+F 0 "J81" H 2900 6070 50  0000 C CNN
+F 1 "TEST_1P" H 2900 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 5800 50  0001 C CNN
+F 3 "" H 3100 5800 50  0001 C CNN
+	1    2900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J86
+U 1 1 5A3D8631
+P 3000 5800
+F 0 "J86" H 3000 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3000 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3200 5800 50  0001 C CNN
+F 3 "" H 3200 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J91
+U 1 1 5A3D8701
+P 3100 5800
+F 0 "J91" H 3100 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3100 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3300 5800 50  0001 C CNN
+F 3 "" H 3300 5800 50  0001 C CNN
+	1    3100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J96
+U 1 1 5A3D87D4
+P 3200 5800
+F 0 "J96" H 3200 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3200 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 5800 50  0001 C CNN
+F 3 "" H 3400 5800 50  0001 C CNN
+	1    3200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J101
+U 1 1 5A3D88B6
+P 3300 5800
+F 0 "J101" H 3300 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3300 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3500 5800 50  0001 C CNN
+F 3 "" H 3500 5800 50  0001 C CNN
+	1    3300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J9
+U 1 1 5A3D8991
+P 1500 6700
+F 0 "J9" H 1500 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1500 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1700 6700 50  0001 C CNN
+F 3 "" H 1700 6700 50  0001 C CNN
+	1    1500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J4
+U 1 1 5A3D8E60
+P 1400 6700
+F 0 "J4" H 1400 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1400 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 6700 50  0001 C CNN
+F 3 "" H 1600 6700 50  0001 C CNN
+	1    1400 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J14
+U 1 1 5A3D8F3F
+P 1600 6700
+F 0 "J14" H 1600 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1600 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6700 50  0001 C CNN
+F 3 "" H 1800 6700 50  0001 C CNN
+	1    1600 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J19
+U 1 1 5A3D9025
+P 1700 6700
+F 0 "J19" H 1700 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1700 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 6700 50  0001 C CNN
+F 3 "" H 1900 6700 50  0001 C CNN
+	1    1700 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J24
+U 1 1 5A3D910A
+P 1800 6700
+F 0 "J24" H 1800 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1800 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 6700 50  0001 C CNN
+F 3 "" H 2000 6700 50  0001 C CNN
+	1    1800 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J29
+U 1 1 5A3D91F2
+P 1900 6700
+F 0 "J29" H 1900 6970 50  0000 C CNN
+F 1 "TEST_1P" H 1900 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 6700 50  0001 C CNN
+F 3 "" H 2100 6700 50  0001 C CNN
+	1    1900 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J34
+U 1 1 5A3D92DD
+P 2000 6700
+F 0 "J34" H 2000 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2000 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 6700 50  0001 C CNN
+F 3 "" H 2200 6700 50  0001 C CNN
+	1    2000 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J39
+U 1 1 5A3D9743
+P 2100 6700
+F 0 "J39" H 2100 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2100 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 6700 50  0001 C CNN
+F 3 "" H 2300 6700 50  0001 C CNN
+	1    2100 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J44
+U 1 1 5A3D9838
+P 2200 6700
+F 0 "J44" H 2200 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2200 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 6700 50  0001 C CNN
+F 3 "" H 2400 6700 50  0001 C CNN
+	1    2200 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J49
+U 1 1 5A3D992C
+P 2300 6700
+F 0 "J49" H 2300 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2300 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2500 6700 50  0001 C CNN
+F 3 "" H 2500 6700 50  0001 C CNN
+	1    2300 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J57
+U 1 1 5A3D9A27
+P 2400 6700
+F 0 "J57" H 2400 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2400 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 6700 50  0001 C CNN
+F 3 "" H 2600 6700 50  0001 C CNN
+	1    2400 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J62
+U 1 1 5A3D9B21
+P 2500 6700
+F 0 "J62" H 2500 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2500 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 6700 50  0001 C CNN
+F 3 "" H 2700 6700 50  0001 C CNN
+	1    2500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J67
+U 1 1 5A3D9C22
+P 2600 6700
+F 0 "J67" H 2600 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2600 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 6700 50  0001 C CNN
+F 3 "" H 2800 6700 50  0001 C CNN
+	1    2600 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J72
+U 1 1 5A3D9D46
+P 2700 6700
+F 0 "J72" H 2700 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2700 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 6700 50  0001 C CNN
+F 3 "" H 2900 6700 50  0001 C CNN
+	1    2700 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J77
+U 1 1 5A3D9E49
+P 2800 6700
+F 0 "J77" H 2800 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2800 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 6700 50  0001 C CNN
+F 3 "" H 3000 6700 50  0001 C CNN
+	1    2800 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J82
+U 1 1 5A3D9F4F
+P 2900 6700
+F 0 "J82" H 2900 6970 50  0000 C CNN
+F 1 "TEST_1P" H 2900 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 6700 50  0001 C CNN
+F 3 "" H 3100 6700 50  0001 C CNN
+	1    2900 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J87
+U 1 1 5A3DA058
+P 3000 6700
+F 0 "J87" H 3000 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3000 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3200 6700 50  0001 C CNN
+F 3 "" H 3200 6700 50  0001 C CNN
+	1    3000 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J92
+U 1 1 5A3DA164
+P 3100 6700
+F 0 "J92" H 3100 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3100 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3300 6700 50  0001 C CNN
+F 3 "" H 3300 6700 50  0001 C CNN
+	1    3100 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J97
+U 1 1 5A3DA273
+P 3200 6700
+F 0 "J97" H 3200 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3200 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 6700 50  0001 C CNN
+F 3 "" H 3400 6700 50  0001 C CNN
+	1    3200 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J102
+U 1 1 5A3DA385
+P 3300 6700
+F 0 "J102" H 3300 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3300 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3500 6700 50  0001 C CNN
+F 3 "" H 3500 6700 50  0001 C CNN
+	1    3300 6700
+	-1   0    0    1   
+$EndComp
+Text Label 4400 4300 1    40   ~ 0
+P2_8
+$Comp
+L CONN_02X20 J154
+U 1 1 5A3DE214
+P 4750 3850
+F 0 "J154" H 4750 4900 50  0000 C CNN
+F 1 "NEIGHBOR2_btm" V 4750 3850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD" H 4750 2900 60  0001 C CNN
+F 3 "" H 4750 2900 60  0000 C CNN
+F 4 "Samtec" H 4750 3850 60  0001 C CNN "Manufacturer"
+F 5 "TSM-120-01-T-DV-LC" H 4750 3850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 4750 3850 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 4750 3850 60  0001 C CNN "Note"
+	1    4750 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 3800 3400 3    40   ~ 0
+VBUS
+Text Label 5700 3300 3    40   ~ 0
+I2C0_SCL
+Text Label 5700 4400 1    40   ~ 0
+I2C0_SDA
+Text Label 5500 3400 3    40   ~ 0
+P6_3
+Text Label 5500 4300 1    40   ~ 0
+P2_1
+Text Label 5400 3400 3    40   ~ 0
+P6_6
+Text Label 5400 4300 1    40   ~ 0
+P2_2
+Text Label 5300 4300 1    40   ~ 0
+P6_7
+Text Label 5200 4300 1    40   ~ 0
+P6_8
+Text Label 4700 3400 3    40   ~ 0
+P2_3
+Text Label 4700 4300 1    40   ~ 0
+P2_4
+Text Label 4600 3400 3    40   ~ 0
+P2_5
+Text Label 4500 4300 1    40   ~ 0
+P2_6
+Text Label 4300 3400 3    40   ~ 0
+CLK2
+Text Label 5100 4300 1    40   ~ 0
+P7_0
+Text Label 5000 3400 3    40   ~ 0
+P3_0
+Text Label 5000 4300 1    40   ~ 0
+P7_1
+Text Label 4900 3400 3    40   ~ 0
+P3_1
+Text Label 4900 4300 1    40   ~ 0
+P7_2
+Text Label 4800 3400 3    40   ~ 0
+P3_2
+Text Label 5300 3400 3    40   ~ 0
+P3_3
+Text Label 5100 3400 3    40   ~ 0
+P3_4
+Text Label 4800 4300 1    40   ~ 0
+PF_4
+Text Label 5600 4300 1    40   ~ 0
+P3_5
+Text Label 5600 3400 3    40   ~ 0
+P3_6
+Text Label 5200 3400 3    40   ~ 0
+P3_7
+Text Label 4500 3400 3    40   ~ 0
+P7_7
+Text Label 3900 3400 3    40   ~ 0
+P4_0
+Text Label 4000 4350 1    40   ~ 0
+ADC0_0
+Text Label 4200 4300 1    40   ~ 0
+P4_3
+Text Label 4100 3400 3    40   ~ 0
+P4_2
+Text Label 4100 4300 1    40   ~ 0
+P4_4
+Text Label 4000 3400 3    40   ~ 0
+P4_5
+Text Label 4200 3400 3    40   ~ 0
+P4_6
+Text Label 4300 4300 1    40   ~ 0
+P4_7
+Text Label 3900 4300 1    40   ~ 0
+P4_8
+Text Label 4600 4400 1    40   ~ 0
+WAKEUP0
+Text Label 4400 3400 3    40   ~ 0
+P2_7
+Text Notes 4400 3250 3    40   ~ 0
+ISP
+Text Notes 4400 4450 1    40   ~ 0
+DFU
+Wire Wire Line
+	3800 4300 3800 4100
+Wire Wire Line
+	5600 4300 5600 4100
+Wire Wire Line
+	5600 3600 5600 3400
+Wire Wire Line
+	5500 3400 5500 3600
+Wire Wire Line
+	5500 4100 5500 4300
+Wire Wire Line
+	5400 4300 5400 4100
+Wire Wire Line
+	5400 3400 5400 3600
+Wire Wire Line
+	5300 3400 5300 3600
+Wire Wire Line
+	5200 3400 5200 3600
+Wire Wire Line
+	5300 4100 5300 4300
+Wire Wire Line
+	5200 4300 5200 4100
+Wire Wire Line
+	5100 4100 5100 4300
+Wire Wire Line
+	5000 3400 5000 3600
+Wire Wire Line
+	5700 3300 5700 3600
+Wire Wire Line
+	5700 4100 5700 4400
+Wire Wire Line
+	5100 3400 5100 3600
+Wire Wire Line
+	5000 4300 5000 4100
+Wire Wire Line
+	4900 4300 4900 4100
+Wire Wire Line
+	4900 3400 4900 3600
+Wire Wire Line
+	4800 3400 4800 3600
+Wire Wire Line
+	4800 4300 4800 4100
+Wire Wire Line
+	4700 3400 4700 3600
+Wire Wire Line
+	4700 4100 4700 4300
+Wire Wire Line
+	4600 3400 4600 3600
+Wire Wire Line
+	4600 4100 4600 4400
+Wire Wire Line
+	4500 4300 4500 4100
+Wire Wire Line
+	4500 3400 4500 3600
+Wire Wire Line
+	4400 3400 4400 3600
+Wire Wire Line
+	4400 4300 4400 4100
+Wire Wire Line
+	4300 3400 4300 3600
+Wire Wire Line
+	4300 4300 4300 4100
+Wire Wire Line
+	4200 3400 4200 3600
+Wire Wire Line
+	4200 4300 4200 4100
+Wire Wire Line
+	4100 3400 4100 3600
+Wire Wire Line
+	4100 4100 4100 4300
+Wire Wire Line
+	4000 4350 4000 4100
+Wire Wire Line
+	4000 3400 4000 3600
+Wire Wire Line
+	3900 4300 3900 4100
+Wire Wire Line
+	3900 3600 3900 3400
+$Comp
+L TEST_1P J109
+U 1 1 5A3DE269
+P 3900 3400
+F 0 "J109" H 3900 3670 50  0000 C CNN
+F 1 "TEST_1P" H 3900 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J114
+U 1 1 5A3DE26F
+P 4000 3400
+F 0 "J114" H 4000 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4000 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 3400 50  0001 C CNN
+F 3 "" H 4200 3400 50  0001 C CNN
+	1    4000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J119
+U 1 1 5A3DE275
+P 4100 3400
+F 0 "J119" H 4100 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4100 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0001 C CNN
+	1    4100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J124
+U 1 1 5A3DE27B
+P 4200 3400
+F 0 "J124" H 4200 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4200 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 3400 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J129
+U 1 1 5A3DE281
+P 4300 3400
+F 0 "J129" H 4300 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4300 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4500 3400 50  0001 C CNN
+F 3 "" H 4500 3400 50  0001 C CNN
+	1    4300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J134
+U 1 1 5A3DE287
+P 4400 3400
+F 0 "J134" H 4400 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4400 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0001 C CNN
+	1    4400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J139
+U 1 1 5A3DE28D
+P 4500 3400
+F 0 "J139" H 4500 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4500 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0001 C CNN
+	1    4500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J144
+U 1 1 5A3DE293
+P 4600 3400
+F 0 "J144" H 4600 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4600 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 3400 50  0001 C CNN
+F 3 "" H 4800 3400 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J149
+U 1 1 5A3DE299
+P 4700 3400
+F 0 "J149" H 4700 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4700 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4900 3400 50  0001 C CNN
+F 3 "" H 4900 3400 50  0001 C CNN
+	1    4700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J157
+U 1 1 5A3DE29F
+P 4800 3400
+F 0 "J157" H 4800 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4800 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5000 3400 50  0001 C CNN
+F 3 "" H 5000 3400 50  0001 C CNN
+	1    4800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J162
+U 1 1 5A3DE2A5
+P 4900 3400
+F 0 "J162" H 4900 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4900 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 3400 50  0001 C CNN
+F 3 "" H 5100 3400 50  0001 C CNN
+	1    4900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J167
+U 1 1 5A3DE2AB
+P 5000 3400
+F 0 "J167" H 5000 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5000 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J172
+U 1 1 5A3DE2B1
+P 5100 3400
+F 0 "J172" H 5100 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5100 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 3400 50  0001 C CNN
+F 3 "" H 5300 3400 50  0001 C CNN
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J177
+U 1 1 5A3DE2B7
+P 5200 3400
+F 0 "J177" H 5200 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5200 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5400 3400 50  0001 C CNN
+F 3 "" H 5400 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J182
+U 1 1 5A3DE2BD
+P 5300 3400
+F 0 "J182" H 5300 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5300 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 3400 50  0001 C CNN
+F 3 "" H 5500 3400 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J187
+U 1 1 5A3DE2C3
+P 5400 3400
+F 0 "J187" H 5400 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5400 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J192
+U 1 1 5A3DE2C9
+P 5500 3400
+F 0 "J192" H 5500 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5500 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 3400 50  0001 C CNN
+F 3 "" H 5700 3400 50  0001 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J197
+U 1 1 5A3DE2CF
+P 5600 3400
+F 0 "J197" H 5600 3670 50  0000 C CNN
+F 1 "TEST_1P" H 5600 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J202
+U 1 1 5A3DE2D5
+P 5700 3300
+F 0 "J202" H 5700 3570 50  0000 C CNN
+F 1 "TEST_1P" H 5700 3500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 3300 50  0001 C CNN
+F 3 "" H 5900 3300 50  0001 C CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J104
+U 1 1 5A3DE2DB
+P 3800 3400
+F 0 "J104" H 3800 3670 50  0000 C CNN
+F 1 "TEST_1P" H 3800 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 3400 50  0001 C CNN
+F 3 "" H 4000 3400 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J110
+U 1 1 5A3DE2E1
+P 3900 4300
+F 0 "J110" H 3900 4570 50  0000 C CNN
+F 1 "TEST_1P" H 3900 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 4300 50  0001 C CNN
+F 3 "" H 4100 4300 50  0001 C CNN
+	1    3900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J105
+U 1 1 5A3DE2E7
+P 3800 4300
+F 0 "J105" H 3800 4570 50  0000 C CNN
+F 1 "TEST_1P" H 3800 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 4300 50  0001 C CNN
+F 3 "" H 4000 4300 50  0001 C CNN
+	1    3800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J115
+U 1 1 5A3DE2ED
+P 4000 4350
+F 0 "J115" H 4000 4620 50  0000 C CNN
+F 1 "TEST_1P" H 4000 4550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 4350 50  0001 C CNN
+F 3 "" H 4200 4350 50  0001 C CNN
+	1    4000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J120
+U 1 1 5A3DE2F3
+P 4100 4300
+F 0 "J120" H 4100 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4100 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 4300 50  0001 C CNN
+F 3 "" H 4300 4300 50  0001 C CNN
+	1    4100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J125
+U 1 1 5A3DE2F9
+P 4200 4300
+F 0 "J125" H 4200 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4200 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 4300 50  0001 C CNN
+F 3 "" H 4400 4300 50  0001 C CNN
+	1    4200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J130
+U 1 1 5A3DE2FF
+P 4300 4300
+F 0 "J130" H 4300 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4300 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4500 4300 50  0001 C CNN
+F 3 "" H 4500 4300 50  0001 C CNN
+	1    4300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J135
+U 1 1 5A3DE305
+P 4400 4300
+F 0 "J135" H 4400 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4400 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 4300 50  0001 C CNN
+F 3 "" H 4600 4300 50  0001 C CNN
+	1    4400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J140
+U 1 1 5A3DE30B
+P 4500 4300
+F 0 "J140" H 4500 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4500 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 4300 50  0001 C CNN
+F 3 "" H 4700 4300 50  0001 C CNN
+	1    4500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J145
+U 1 1 5A3DE311
+P 4600 4400
+F 0 "J145" H 4600 4670 50  0000 C CNN
+F 1 "TEST_1P" H 4600 4600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 4400 50  0001 C CNN
+F 3 "" H 4800 4400 50  0001 C CNN
+	1    4600 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J150
+U 1 1 5A3DE317
+P 4700 4300
+F 0 "J150" H 4700 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4700 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4900 4300 50  0001 C CNN
+F 3 "" H 4900 4300 50  0001 C CNN
+	1    4700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J158
+U 1 1 5A3DE31D
+P 4800 4300
+F 0 "J158" H 4800 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4800 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5000 4300 50  0001 C CNN
+F 3 "" H 5000 4300 50  0001 C CNN
+	1    4800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J163
+U 1 1 5A3DE323
+P 4900 4300
+F 0 "J163" H 4900 4570 50  0000 C CNN
+F 1 "TEST_1P" H 4900 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 4300 50  0001 C CNN
+F 3 "" H 5100 4300 50  0001 C CNN
+	1    4900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J168
+U 1 1 5A3DE329
+P 5000 4300
+F 0 "J168" H 5000 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5000 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J173
+U 1 1 5A3DE32F
+P 5100 4300
+F 0 "J173" H 5100 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5100 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J178
+U 1 1 5A3DE335
+P 5200 4300
+F 0 "J178" H 5200 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5200 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5400 4300 50  0001 C CNN
+F 3 "" H 5400 4300 50  0001 C CNN
+	1    5200 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J183
+U 1 1 5A3DE33B
+P 5300 4300
+F 0 "J183" H 5300 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5300 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 4300 50  0001 C CNN
+F 3 "" H 5500 4300 50  0001 C CNN
+	1    5300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J188
+U 1 1 5A3DE341
+P 5400 4300
+F 0 "J188" H 5400 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5400 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J193
+U 1 1 5A3DE347
+P 5500 4300
+F 0 "J193" H 5500 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5500 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J198
+U 1 1 5A3DE34D
+P 5600 4300
+F 0 "J198" H 5600 4570 50  0000 C CNN
+F 1 "TEST_1P" H 5600 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	1    5600 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J203
+U 1 1 5A3DE353
+P 5700 4400
+F 0 "J203" H 5700 4670 50  0000 C CNN
+F 1 "TEST_1P" H 5700 4600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 4400 50  0001 C CNN
+F 3 "" H 5900 4400 50  0001 C CNN
+	1    5700 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3600 3800 3400
+$Comp
+L CONN_02X20 J155
+U 1 1 5A3DF644
+P 4750 6250
+F 0 "J155" H 4750 7300 50  0000 C CNN
+F 1 "NEIGHBOR1_btm" V 4750 6250 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD" H 4750 5300 60  0001 C CNN
+F 3 "" H 4750 5300 60  0000 C CNN
+F 4 "Samtec" H 4750 6250 60  0001 C CNN "Manufacturer"
+F 5 "TSM-120-01-T-DV-LC" H 4750 6250 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 4750 6250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 4750 6250 60  0001 C CNN "Note"
+	1    4750 6250
+	0    -1   -1   0   
+$EndComp
+Text Label 3900 5800 3    40   ~ 0
+P0_0
+Text Label 3900 6700 1    40   ~ 0
+P4_9
+Text Label 4000 5800 3    40   ~ 0
+P0_1
+Text Label 4000 6700 1    40   ~ 0
+P4_10
+Text Label 4100 5800 3    40   ~ 0
+P5_0
+Text Label 4100 6700 1    40   ~ 0
+P1_0
+Text Label 4200 6700 1    40   ~ 0
+P5_1
+Text Label 4200 5800 3    40   ~ 0
+P1_1
+Text Label 4300 5800 3    40   ~ 0
+P1_2
+Text Label 5700 5800 3    40   ~ 0
+P1_3
+Text Label 4400 5800 3    40   ~ 0
+P5_2
+Text Label 5700 6700 1    40   ~ 0
+P1_4
+Text Label 4400 6700 1    40   ~ 0
+P1_5
+Text Label 4500 5800 3    40   ~ 0
+P1_6
+Text Label 4500 6700 1    40   ~ 0
+P1_7
+Text Label 4600 5800 3    40   ~ 0
+P1_8
+Text Label 4600 6700 1    40   ~ 0
+P1_9
+Text Label 4700 5800 3    40   ~ 0
+P1_10
+Text Label 4700 6700 1    40   ~ 0
+P5_3
+Text Label 4800 5800 3    40   ~ 0
+P1_11
+Text Label 4800 6700 1    40   ~ 0
+P1_12
+Text Label 4900 5800 3    40   ~ 0
+P5_4
+Text Label 4900 6700 1    40   ~ 0
+P5_5
+Text Label 5000 5800 3    40   ~ 0
+P1_13
+Text Label 5000 6700 1    40   ~ 0
+P1_14
+Text Label 5100 5800 3    40   ~ 0
+P1_15
+Text Label 5100 6700 1    40   ~ 0
+P5_6
+Text Label 5200 5800 3    40   ~ 0
+P1_16
+Text Label 5200 6700 1    40   ~ 0
+P5_7
+Text Label 5300 5800 3    40   ~ 0
+P1_17
+Text Label 5300 6700 1    40   ~ 0
+P1_18
+Text Label 5600 5800 3    40   ~ 0
+P1_19
+Text Label 5400 6700 1    40   ~ 0
+P9_5
+Text Label 5600 6700 1    40   ~ 0
+P1_20
+Text Label 5400 5800 3    40   ~ 0
+P9_6
+Text Label 4300 6700 1    40   ~ 0
+CLK0
+Text Label 5500 5800 3    40   ~ 0
+P6_0
+Text Label 5500 6700 1    40   ~ 0
+P2_0
+Text Notes 5700 5750 1    40   ~ 0
+MISO
+Text Notes 5700 6750 3    40   ~ 0
+MOSI
+Text Notes 5600 5750 1    40   ~ 0
+SCK
+Text Notes 5600 6750 3    40   ~ 0
+SSEL
+Text Notes 4200 5750 1    40   ~ 0
+BOOT
+Text Notes 4300 5600 3    40   ~ 0
+BOOT
+Wire Wire Line
+	3800 6700 3800 6500
+Wire Wire Line
+	3800 6000 3800 5800
+Wire Wire Line
+	3900 5800 3900 6000
+Wire Wire Line
+	3900 6700 3900 6500
+Wire Wire Line
+	4000 6700 4000 6500
+Wire Wire Line
+	4100 6700 4100 6500
+Wire Wire Line
+	4200 6700 4200 6500
+Wire Wire Line
+	4300 6700 4300 6500
+Wire Wire Line
+	4400 6700 4400 6500
+Wire Wire Line
+	4500 6700 4500 6500
+Wire Wire Line
+	4600 6700 4600 6500
+Wire Wire Line
+	4700 6700 4700 6500
+Wire Wire Line
+	4800 6700 4800 6500
+Wire Wire Line
+	4900 6700 4900 6500
+Wire Wire Line
+	5000 6700 5000 6500
+Wire Wire Line
+	5100 6700 5100 6500
+Wire Wire Line
+	5200 6700 5200 6500
+Wire Wire Line
+	5300 6700 5300 6500
+Wire Wire Line
+	5400 6700 5400 6500
+Wire Wire Line
+	5500 6700 5500 6500
+Wire Wire Line
+	5500 5800 5500 6000
+Wire Wire Line
+	5400 6000 5400 5800
+Wire Wire Line
+	5300 5800 5300 6000
+Wire Wire Line
+	5200 6000 5200 5800
+Wire Wire Line
+	5100 5800 5100 6000
+Wire Wire Line
+	5000 6000 5000 5800
+Wire Wire Line
+	4900 5800 4900 6000
+Wire Wire Line
+	4800 6000 4800 5800
+Wire Wire Line
+	4700 5800 4700 6000
+Wire Wire Line
+	4600 6000 4600 5800
+Wire Wire Line
+	4500 5800 4500 6000
+Wire Wire Line
+	4400 6000 4400 5800
+Wire Wire Line
+	4300 5800 4300 6000
+Wire Wire Line
+	4200 6000 4200 5800
+Wire Wire Line
+	4100 5800 4100 6000
+Wire Wire Line
+	4000 6000 4000 5800
+Wire Wire Line
+	5600 6700 5600 6500
+Wire Wire Line
+	5700 6500 5700 6700
+Wire Wire Line
+	5700 6000 5700 5800
+Wire Wire Line
+	5600 5800 5600 6000
+$Comp
+L TEST_1P J106
+U 1 1 5A3DF69E
+P 3800 5800
+F 0 "J106" H 3800 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3800 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 5800 50  0001 C CNN
+F 3 "" H 4000 5800 50  0001 C CNN
+	1    3800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J111
+U 1 1 5A3DF6A4
+P 3900 5800
+F 0 "J111" H 3900 6070 50  0000 C CNN
+F 1 "TEST_1P" H 3900 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 5800 50  0001 C CNN
+F 3 "" H 4100 5800 50  0001 C CNN
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J116
+U 1 1 5A3DF6AA
+P 4000 5800
+F 0 "J116" H 4000 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4000 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 5800 50  0001 C CNN
+F 3 "" H 4200 5800 50  0001 C CNN
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J121
+U 1 1 5A3DF6B0
+P 4100 5800
+F 0 "J121" H 4100 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4100 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 5800 50  0001 C CNN
+F 3 "" H 4300 5800 50  0001 C CNN
+	1    4100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J126
+U 1 1 5A3DF6B6
+P 4200 5800
+F 0 "J126" H 4200 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4200 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 5800 50  0001 C CNN
+F 3 "" H 4400 5800 50  0001 C CNN
+	1    4200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J131
+U 1 1 5A3DF6BC
+P 4300 5800
+F 0 "J131" H 4300 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4300 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4500 5800 50  0001 C CNN
+F 3 "" H 4500 5800 50  0001 C CNN
+	1    4300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J136
+U 1 1 5A3DF6C2
+P 4400 5800
+F 0 "J136" H 4400 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4400 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 5800 50  0001 C CNN
+F 3 "" H 4600 5800 50  0001 C CNN
+	1    4400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J141
+U 1 1 5A3DF6C8
+P 4500 5800
+F 0 "J141" H 4500 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4500 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 5800 50  0001 C CNN
+F 3 "" H 4700 5800 50  0001 C CNN
+	1    4500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J146
+U 1 1 5A3DF6CE
+P 4600 5800
+F 0 "J146" H 4600 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4600 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 5800 50  0001 C CNN
+F 3 "" H 4800 5800 50  0001 C CNN
+	1    4600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J151
+U 1 1 5A3DF6D4
+P 4700 5800
+F 0 "J151" H 4700 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4700 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J159
+U 1 1 5A3DF6DA
+P 4800 5800
+F 0 "J159" H 4800 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4800 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5000 5800 50  0001 C CNN
+F 3 "" H 5000 5800 50  0001 C CNN
+	1    4800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J164
+U 1 1 5A3DF6E0
+P 4900 5800
+F 0 "J164" H 4900 6070 50  0000 C CNN
+F 1 "TEST_1P" H 4900 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 5800 50  0001 C CNN
+F 3 "" H 5100 5800 50  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J169
+U 1 1 5A3DF6E6
+P 5000 5800
+F 0 "J169" H 5000 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5000 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 5800 50  0001 C CNN
+F 3 "" H 5200 5800 50  0001 C CNN
+	1    5000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J174
+U 1 1 5A3DF6EC
+P 5100 5800
+F 0 "J174" H 5100 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5100 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 5800 50  0001 C CNN
+F 3 "" H 5300 5800 50  0001 C CNN
+	1    5100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J179
+U 1 1 5A3DF6F2
+P 5200 5800
+F 0 "J179" H 5200 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5200 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5400 5800 50  0001 C CNN
+F 3 "" H 5400 5800 50  0001 C CNN
+	1    5200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J184
+U 1 1 5A3DF6F8
+P 5300 5800
+F 0 "J184" H 5300 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5300 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 5800 50  0001 C CNN
+F 3 "" H 5500 5800 50  0001 C CNN
+	1    5300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J189
+U 1 1 5A3DF6FE
+P 5400 5800
+F 0 "J189" H 5400 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5400 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5600 5800 50  0001 C CNN
+F 3 "" H 5600 5800 50  0001 C CNN
+	1    5400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J194
+U 1 1 5A3DF704
+P 5500 5800
+F 0 "J194" H 5500 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5500 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 5800 50  0001 C CNN
+F 3 "" H 5700 5800 50  0001 C CNN
+	1    5500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J199
+U 1 1 5A3DF70A
+P 5600 5800
+F 0 "J199" H 5600 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5600 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5800 5800 50  0001 C CNN
+F 3 "" H 5800 5800 50  0001 C CNN
+	1    5600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J204
+U 1 1 5A3DF710
+P 5700 5800
+F 0 "J204" H 5700 6070 50  0000 C CNN
+F 1 "TEST_1P" H 5700 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 5800 50  0001 C CNN
+F 3 "" H 5900 5800 50  0001 C CNN
+	1    5700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J112
+U 1 1 5A3DF716
+P 3900 6700
+F 0 "J112" H 3900 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3900 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 6700 50  0001 C CNN
+F 3 "" H 4100 6700 50  0001 C CNN
+	1    3900 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J107
+U 1 1 5A3DF71C
+P 3800 6700
+F 0 "J107" H 3800 6970 50  0000 C CNN
+F 1 "TEST_1P" H 3800 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 6700 50  0001 C CNN
+F 3 "" H 4000 6700 50  0001 C CNN
+	1    3800 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J117
+U 1 1 5A3DF722
+P 4000 6700
+F 0 "J117" H 4000 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4000 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6700 50  0001 C CNN
+F 3 "" H 4200 6700 50  0001 C CNN
+	1    4000 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J122
+U 1 1 5A3DF728
+P 4100 6700
+F 0 "J122" H 4100 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4100 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 6700 50  0001 C CNN
+F 3 "" H 4300 6700 50  0001 C CNN
+	1    4100 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J127
+U 1 1 5A3DF72E
+P 4200 6700
+F 0 "J127" H 4200 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4200 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 6700 50  0001 C CNN
+F 3 "" H 4400 6700 50  0001 C CNN
+	1    4200 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J132
+U 1 1 5A3DF734
+P 4300 6700
+F 0 "J132" H 4300 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4300 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4300 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J137
+U 1 1 5A3DF73A
+P 4400 6700
+F 0 "J137" H 4400 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4400 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 6700 50  0001 C CNN
+F 3 "" H 4600 6700 50  0001 C CNN
+	1    4400 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J142
+U 1 1 5A3DF740
+P 4500 6700
+F 0 "J142" H 4500 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4500 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 6700 50  0001 C CNN
+F 3 "" H 4700 6700 50  0001 C CNN
+	1    4500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J147
+U 1 1 5A3DF746
+P 4600 6700
+F 0 "J147" H 4600 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4600 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 6700 50  0001 C CNN
+F 3 "" H 4800 6700 50  0001 C CNN
+	1    4600 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J152
+U 1 1 5A3DF74C
+P 4700 6700
+F 0 "J152" H 4700 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4700 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4900 6700 50  0001 C CNN
+F 3 "" H 4900 6700 50  0001 C CNN
+	1    4700 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J160
+U 1 1 5A3DF752
+P 4800 6700
+F 0 "J160" H 4800 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4800 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5000 6700 50  0001 C CNN
+F 3 "" H 5000 6700 50  0001 C CNN
+	1    4800 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J165
+U 1 1 5A3DF758
+P 4900 6700
+F 0 "J165" H 4900 6970 50  0000 C CNN
+F 1 "TEST_1P" H 4900 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 6700 50  0001 C CNN
+F 3 "" H 5100 6700 50  0001 C CNN
+	1    4900 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J170
+U 1 1 5A3DF75E
+P 5000 6700
+F 0 "J170" H 5000 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5000 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 6700 50  0001 C CNN
+F 3 "" H 5200 6700 50  0001 C CNN
+	1    5000 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J175
+U 1 1 5A3DF764
+P 5100 6700
+F 0 "J175" H 5100 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5100 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 6700 50  0001 C CNN
+F 3 "" H 5300 6700 50  0001 C CNN
+	1    5100 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J180
+U 1 1 5A3DF76A
+P 5200 6700
+F 0 "J180" H 5200 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5200 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5400 6700 50  0001 C CNN
+F 3 "" H 5400 6700 50  0001 C CNN
+	1    5200 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J185
+U 1 1 5A3DF770
+P 5300 6700
+F 0 "J185" H 5300 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5300 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 6700 50  0001 C CNN
+F 3 "" H 5500 6700 50  0001 C CNN
+	1    5300 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J190
+U 1 1 5A3DF776
+P 5400 6700
+F 0 "J190" H 5400 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5400 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5600 6700 50  0001 C CNN
+F 3 "" H 5600 6700 50  0001 C CNN
+	1    5400 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J195
+U 1 1 5A3DF77C
+P 5500 6700
+F 0 "J195" H 5500 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5500 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 6700 50  0001 C CNN
+F 3 "" H 5700 6700 50  0001 C CNN
+	1    5500 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J200
+U 1 1 5A3DF782
+P 5600 6700
+F 0 "J200" H 5600 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5600 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5800 6700 50  0001 C CNN
+F 3 "" H 5800 6700 50  0001 C CNN
+	1    5600 6700
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J205
+U 1 1 5A3DF788
+P 5700 6700
+F 0 "J205" H 5700 6970 50  0000 C CNN
+F 1 "TEST_1P" H 5700 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 6700 50  0001 C CNN
+F 3 "" H 5900 6700 50  0001 C CNN
+	1    5700 6700
+	-1   0    0    1   
+$EndComp
+Text Label 7950 4300 1    40   ~ 0
+P2_8
+$Comp
+L CONN_02X20 J257
+U 1 1 5A3E6FC4
+P 8300 3850
+F 0 "J257" H 8300 4900 50  0000 C CNN
+F 1 "NEIGHBOR2_top_A" V 8300 3850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD-2" H 8300 2900 60  0001 C CNN
+F 3 "" H 8300 2900 60  0000 C CNN
+F 4 "Samtec" H 8300 3850 60  0001 C CNN "Manufacturer"
+F 5 "SSM-120-L-DV-LC" H 8300 3850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 8300 3850 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 8300 3850 60  0001 C CNN "Note"
+	1    8300 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 7350 3400 3    40   ~ 0
+VBUS
+$Comp
+L CONN_02X20 J258
+U 1 1 5A3E6FCF
+P 8300 6250
+F 0 "J258" H 8300 7300 50  0000 C CNN
+F 1 "NEIGHBOR1_top_A" V 8300 6250 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD-2" H 8300 5300 60  0001 C CNN
+F 3 "" H 8300 5300 60  0000 C CNN
+F 4 "Samtec" H 8300 6250 60  0001 C CNN "Manufacturer"
+F 5 "SSM-120-L-DV-LC" H 8300 6250 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 8300 6250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 8300 6250 60  0001 C CNN "Note"
+	1    8300 6250
+	0    -1   -1   0   
+$EndComp
+Text Label 7450 5800 3    40   ~ 0
+P0_0
+Text Label 7450 6700 1    40   ~ 0
+P4_9
+Text Label 7550 5800 3    40   ~ 0
+P0_1
+Text Label 7550 6700 1    40   ~ 0
+P4_10
+Text Label 7650 5800 3    40   ~ 0
+P5_0
+Text Label 7650 6700 1    40   ~ 0
+P1_0
+Text Label 7750 6700 1    40   ~ 0
+P5_1
+Text Label 7750 5800 3    40   ~ 0
+P1_1
+Text Label 7850 5800 3    40   ~ 0
+P1_2
+Text Label 9250 5700 3    40   ~ 0
+P1_3
+Text Label 7950 5800 3    40   ~ 0
+P5_2
+Text Label 9250 6750 1    40   ~ 0
+P1_4
+Text Label 7950 6700 1    40   ~ 0
+P1_5
+Text Label 8050 5800 3    40   ~ 0
+P1_6
+Text Label 8050 6700 1    40   ~ 0
+P1_7
+Text Label 8150 5800 3    40   ~ 0
+P1_8
+Text Label 8150 6700 1    40   ~ 0
+P1_9
+Text Label 8250 5800 3    40   ~ 0
+P1_10
+Text Label 8250 6700 1    40   ~ 0
+P5_3
+Text Label 8350 5800 3    40   ~ 0
+P1_11
+Text Label 8350 6700 1    40   ~ 0
+P1_12
+Text Label 8450 5800 3    40   ~ 0
+P5_4
+Text Label 8450 6700 1    40   ~ 0
+P5_5
+Text Label 8550 5800 3    40   ~ 0
+P1_13
+Text Label 8550 6700 1    40   ~ 0
+P1_14
+Text Label 8650 5800 3    40   ~ 0
+P1_15
+Text Label 8650 6700 1    40   ~ 0
+P5_6
+Text Label 8750 5800 3    40   ~ 0
+P1_16
+Text Label 8750 6700 1    40   ~ 0
+P5_7
+Text Label 8850 5800 3    40   ~ 0
+P1_17
+Text Label 8850 6700 1    40   ~ 0
+P1_18
+Text Label 9150 5800 3    40   ~ 0
+P1_19
+Text Label 8950 6700 1    40   ~ 0
+P9_5
+Text Label 9150 6700 1    40   ~ 0
+P1_20
+Text Label 8950 5800 3    40   ~ 0
+P9_6
+Text Label 7850 6700 1    40   ~ 0
+CLK0
+Text Label 9050 5800 3    40   ~ 0
+P6_0
+Text Label 9050 6700 1    40   ~ 0
+P2_0
+Text Notes 9250 5750 1    40   ~ 0
+MISO
+Text Notes 9250 6750 3    40   ~ 0
+MOSI
+Text Notes 9150 5750 1    40   ~ 0
+SCK
+Text Notes 9150 6750 3    40   ~ 0
+SSEL
+Text Label 9250 3300 3    40   ~ 0
+I2C0_SCL
+Text Label 9250 4400 1    40   ~ 0
+I2C0_SDA
+Text Label 9050 3400 3    40   ~ 0
+P6_3
+Text Label 9050 4300 1    40   ~ 0
+P2_1
+Text Label 8950 3400 3    40   ~ 0
+P6_6
+Text Label 8950 4300 1    40   ~ 0
+P2_2
+Text Label 8850 4300 1    40   ~ 0
+P6_7
+Text Label 8750 4300 1    40   ~ 0
+P6_8
+Text Label 8250 3400 3    40   ~ 0
+P2_3
+Text Label 8250 4300 1    40   ~ 0
+P2_4
+Text Label 8150 3400 3    40   ~ 0
+P2_5
+Text Label 8050 4300 1    40   ~ 0
+P2_6
+Text Label 7850 3400 3    40   ~ 0
+CLK2
+Text Label 8650 4300 1    40   ~ 0
+P7_0
+Text Label 8550 3400 3    40   ~ 0
+P3_0
+Text Label 8550 4300 1    40   ~ 0
+P7_1
+Text Label 8450 3400 3    40   ~ 0
+P3_1
+Text Label 8450 4300 1    40   ~ 0
+P7_2
+Text Label 8350 3400 3    40   ~ 0
+P3_2
+Text Label 8850 3400 3    40   ~ 0
+P3_3
+Text Label 8650 3400 3    40   ~ 0
+P3_4
+Text Label 8350 4300 1    40   ~ 0
+PF_4
+Text Label 9150 4300 1    40   ~ 0
+P3_5
+Text Label 9150 3400 3    40   ~ 0
+P3_6
+Text Label 8750 3400 3    40   ~ 0
+P3_7
+Text Label 8050 3400 3    40   ~ 0
+P7_7
+Text Label 7450 3400 3    40   ~ 0
+P4_0
+Text Label 7550 4350 1    40   ~ 0
+ADC0_0
+Text Label 7750 4300 1    40   ~ 0
+P4_3
+Text Label 7650 3400 3    40   ~ 0
+P4_2
+Text Label 7650 4300 1    40   ~ 0
+P4_4
+Text Label 7550 3400 3    40   ~ 0
+P4_5
+Text Label 7750 3400 3    40   ~ 0
+P4_6
+Text Label 7850 4300 1    40   ~ 0
+P4_7
+Text Label 7450 4300 1    40   ~ 0
+P4_8
+Text Label 8150 4400 1    40   ~ 0
+WAKEUP0
+Text Label 7950 3400 3    40   ~ 0
+P2_7
+Text Notes 7950 3250 3    40   ~ 0
+ISP
+Text Notes 7950 4450 1    40   ~ 0
+DFU
+Text Notes 7750 5750 1    40   ~ 0
+BOOT
+Wire Wire Line
+	7350 6700 7350 6500
+Wire Wire Line
+	7350 6000 7350 5800
+Wire Wire Line
+	7450 5650 7450 6000
+Wire Wire Line
+	7450 6500 7450 6850
+Wire Wire Line
+	7350 4300 7350 4100
+Wire Wire Line
+	7550 6500 7550 6850
+Wire Wire Line
+	7650 6500 7650 6850
+Wire Wire Line
+	7750 6500 7750 6850
+Wire Wire Line
+	7850 6500 7850 6850
+Wire Wire Line
+	7950 6500 7950 6850
+Wire Wire Line
+	8050 6500 8050 6850
+Wire Wire Line
+	8150 6500 8150 6850
+Wire Wire Line
+	8250 6500 8250 6850
+Wire Wire Line
+	8350 6500 8350 6850
+Wire Wire Line
+	8450 6500 8450 6850
+Wire Wire Line
+	8550 6500 8550 6850
+Wire Wire Line
+	8650 6500 8650 6850
+Wire Wire Line
+	8750 6500 8750 6850
+Wire Wire Line
+	8850 6500 8850 6850
+Wire Wire Line
+	8950 6500 8950 6850
+Wire Wire Line
+	9050 6500 9050 6850
+Wire Wire Line
+	9050 5650 9050 6000
+Wire Wire Line
+	8950 5650 8950 6000
+Wire Wire Line
+	8850 5650 8850 6000
+Wire Wire Line
+	8750 5650 8750 6000
+Wire Wire Line
+	8650 5650 8650 6000
+Wire Wire Line
+	8550 5650 8550 6000
+Wire Wire Line
+	8450 5650 8450 6000
+Wire Wire Line
+	8350 5650 8350 6000
+Wire Wire Line
+	8250 5650 8250 6000
+Wire Wire Line
+	8150 5650 8150 6000
+Wire Wire Line
+	8050 5650 8050 6000
+Wire Wire Line
+	7950 5650 7950 6000
+Wire Wire Line
+	7850 5650 7850 6000
+Wire Wire Line
+	7750 5650 7750 6000
+Wire Wire Line
+	7650 5650 7650 6000
+Wire Wire Line
+	7550 5650 7550 6000
+Wire Wire Line
+	9150 6500 9150 6850
+Wire Wire Line
+	9250 6500 9250 6750
+Wire Wire Line
+	9250 6000 9250 5700
+Wire Wire Line
+	9150 5650 9150 6000
+Wire Wire Line
+	9150 4100 9150 4450
+Wire Wire Line
+	9150 3250 9150 3600
+Wire Wire Line
+	9050 3250 9050 3600
+Wire Wire Line
+	9050 4100 9050 4450
+Wire Wire Line
+	8950 4100 8950 4450
+Wire Wire Line
+	8950 3250 8950 3600
+Wire Wire Line
+	8850 3250 8850 3600
+Wire Wire Line
+	8750 3250 8750 3600
+Wire Wire Line
+	8850 4100 8850 4450
+Wire Wire Line
+	8750 4100 8750 4450
+Wire Wire Line
+	8650 4100 8650 4450
+Wire Wire Line
+	8550 3250 8550 3600
+Wire Wire Line
+	9250 3300 9250 3600
+Wire Wire Line
+	9250 4100 9250 4400
+Wire Wire Line
+	8650 3250 8650 3600
+Wire Wire Line
+	8550 4100 8550 4450
+Wire Wire Line
+	8450 4100 8450 4450
+Wire Wire Line
+	8450 3250 8450 3600
+Wire Wire Line
+	8350 3250 8350 3600
+Wire Wire Line
+	8350 4100 8350 4450
+Wire Wire Line
+	8250 3250 8250 3600
+Wire Wire Line
+	8250 4100 8250 4450
+Wire Wire Line
+	8150 3250 8150 3600
+Wire Wire Line
+	8150 4100 8150 4450
+Wire Wire Line
+	8050 4100 8050 4450
+Wire Wire Line
+	8050 3250 8050 3600
+Wire Wire Line
+	7950 3250 7950 3600
+Wire Wire Line
+	7950 4100 7950 4450
+Wire Wire Line
+	7850 3250 7850 3600
+Wire Wire Line
+	7850 4100 7850 4450
+Wire Wire Line
+	7750 3250 7750 3600
+Wire Wire Line
+	7750 4100 7750 4450
+Wire Wire Line
+	7650 3250 7650 3600
+Wire Wire Line
+	7650 4100 7650 4450
+Wire Wire Line
+	7550 4100 7550 4450
+Wire Wire Line
+	7550 3250 7550 3600
+Wire Wire Line
+	7450 4100 7450 4450
+Wire Wire Line
+	7450 3250 7450 3600
+$Comp
+L TEST_1P J207
+U 1 1 5A3E70E9
+P 7350 3400
+F 0 "J207" H 7350 3670 50  0000 C CNN
+F 1 "TEST_1P" H 7350 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 3400 50  0001 C CNN
+F 3 "" H 7550 3400 50  0001 C CNN
+	1    7350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J208
+U 1 1 5A3E70F5
+P 7350 4300
+F 0 "J208" H 7350 4570 50  0000 C CNN
+F 1 "TEST_1P" H 7350 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 4300 50  0001 C CNN
+F 3 "" H 7550 4300 50  0001 C CNN
+	1    7350 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3600 7350 3400
+$Comp
+L TEST_1P J209
+U 1 1 5A3E7168
+P 7350 5800
+F 0 "J209" H 7350 6070 50  0000 C CNN
+F 1 "TEST_1P" H 7350 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 5800 50  0001 C CNN
+F 3 "" H 7550 5800 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J210
+U 1 1 5A3E71E6
+P 7350 6700
+F 0 "J210" H 7350 6970 50  0000 C CNN
+F 1 "TEST_1P" H 7350 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 6700 50  0001 C CNN
+F 3 "" H 7550 6700 50  0001 C CNN
+	1    7350 6700
+	-1   0    0    1   
+$EndComp
+Text Label 10350 4300 1    40   ~ 0
+P2_8
+$Comp
+L CONN_02X20 J360
+U 1 1 5A3E725D
+P 10700 3850
+F 0 "J360" H 10700 4900 50  0000 C CNN
+F 1 "NEIGHBOR2_btm_A" V 10700 3850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD-2" H 10700 2900 60  0001 C CNN
+F 3 "" H 10700 2900 60  0000 C CNN
+F 4 "Samtec" H 10700 3850 60  0001 C CNN "Manufacturer"
+F 5 "TSM-120-01-T-DV-LC" H 10700 3850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 10700 3850 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 10700 3850 60  0001 C CNN "Note"
+	1    10700 3850
+	0    -1   -1   0   
+$EndComp
+Text Label 9750 3400 3    40   ~ 0
+VBUS
+Text Label 11650 3300 3    40   ~ 0
+I2C0_SCL
+Text Label 11650 4400 1    40   ~ 0
+I2C0_SDA
+Text Label 11450 3400 3    40   ~ 0
+P6_3
+Text Label 11450 4300 1    40   ~ 0
+P2_1
+Text Label 11350 3400 3    40   ~ 0
+P6_6
+Text Label 11350 4300 1    40   ~ 0
+P2_2
+Text Label 11250 4300 1    40   ~ 0
+P6_7
+Text Label 11150 4300 1    40   ~ 0
+P6_8
+Text Label 10650 3400 3    40   ~ 0
+P2_3
+Text Label 10650 4300 1    40   ~ 0
+P2_4
+Text Label 10550 3400 3    40   ~ 0
+P2_5
+Text Label 10450 4300 1    40   ~ 0
+P2_6
+Text Label 10250 3400 3    40   ~ 0
+CLK2
+Text Label 11050 4300 1    40   ~ 0
+P7_0
+Text Label 10950 3400 3    40   ~ 0
+P3_0
+Text Label 10950 4300 1    40   ~ 0
+P7_1
+Text Label 10850 3400 3    40   ~ 0
+P3_1
+Text Label 10850 4300 1    40   ~ 0
+P7_2
+Text Label 10750 3400 3    40   ~ 0
+P3_2
+Text Label 11250 3400 3    40   ~ 0
+P3_3
+Text Label 11050 3400 3    40   ~ 0
+P3_4
+Text Label 10750 4300 1    40   ~ 0
+PF_4
+Text Label 11550 4300 1    40   ~ 0
+P3_5
+Text Label 11550 3400 3    40   ~ 0
+P3_6
+Text Label 11150 3400 3    40   ~ 0
+P3_7
+Text Label 10450 3400 3    40   ~ 0
+P7_7
+Text Label 9850 3400 3    40   ~ 0
+P4_0
+Text Label 9950 4350 1    40   ~ 0
+ADC0_0
+Text Label 10150 4300 1    40   ~ 0
+P4_3
+Text Label 10050 3400 3    40   ~ 0
+P4_2
+Text Label 10050 4300 1    40   ~ 0
+P4_4
+Text Label 9950 3400 3    40   ~ 0
+P4_5
+Text Label 10150 3400 3    40   ~ 0
+P4_6
+Text Label 10250 4300 1    40   ~ 0
+P4_7
+Text Label 9850 4300 1    40   ~ 0
+P4_8
+Text Label 10550 4400 1    40   ~ 0
+WAKEUP0
+Text Label 10350 3400 3    40   ~ 0
+P2_7
+Text Notes 10350 3250 3    40   ~ 0
+ISP
+Text Notes 10350 4450 1    40   ~ 0
+DFU
+Wire Wire Line
+	9750 4300 9750 4100
+Wire Wire Line
+	11550 4100 11550 4450
+Wire Wire Line
+	11550 3250 11550 3600
+Wire Wire Line
+	11450 3250 11450 3600
+Wire Wire Line
+	11450 4100 11450 4450
+Wire Wire Line
+	11350 4100 11350 4450
+Wire Wire Line
+	11350 3250 11350 3600
+Wire Wire Line
+	11250 3250 11250 3600
+Wire Wire Line
+	11150 3250 11150 3600
+Wire Wire Line
+	11250 4100 11250 4450
+Wire Wire Line
+	11150 4100 11150 4450
+Wire Wire Line
+	11050 4100 11050 4450
+Wire Wire Line
+	10950 3250 10950 3600
+Wire Wire Line
+	11650 3300 11650 3600
+Wire Wire Line
+	11650 4100 11650 4400
+Wire Wire Line
+	11050 3250 11050 3600
+Wire Wire Line
+	10950 4100 10950 4450
+Wire Wire Line
+	10850 4100 10850 4450
+Wire Wire Line
+	10850 3250 10850 3600
+Wire Wire Line
+	10750 3250 10750 3600
+Wire Wire Line
+	10750 4100 10750 4450
+Wire Wire Line
+	10650 3250 10650 3600
+Wire Wire Line
+	10650 4100 10650 4450
+Wire Wire Line
+	10550 3250 10550 3600
+Wire Wire Line
+	10550 4100 10550 4450
+Wire Wire Line
+	10450 4100 10450 4450
+Wire Wire Line
+	10450 3250 10450 3600
+Wire Wire Line
+	10350 3250 10350 3600
+Wire Wire Line
+	10350 4100 10350 4450
+Wire Wire Line
+	10250 3250 10250 3600
+Wire Wire Line
+	10250 4100 10250 4450
+Wire Wire Line
+	10150 3250 10150 3600
+Wire Wire Line
+	10150 4100 10150 4450
+Wire Wire Line
+	10050 3250 10050 3600
+Wire Wire Line
+	10050 4100 10050 4450
+Wire Wire Line
+	9950 4100 9950 4450
+Wire Wire Line
+	9950 3250 9950 3600
+Wire Wire Line
+	9850 4100 9850 4450
+Wire Wire Line
+	9850 3250 9850 3600
+$Comp
+L TEST_1P J310
+U 1 1 5A3E7324
+P 9750 3400
+F 0 "J310" H 9750 3670 50  0000 C CNN
+F 1 "TEST_1P" H 9750 3600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 3400 50  0001 C CNN
+F 3 "" H 9950 3400 50  0001 C CNN
+	1    9750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J311
+U 1 1 5A3E7330
+P 9750 4300
+F 0 "J311" H 9750 4570 50  0000 C CNN
+F 1 "TEST_1P" H 9750 4500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 4300 50  0001 C CNN
+F 3 "" H 9950 4300 50  0001 C CNN
+	1    9750 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 3600 9750 3400
+$Comp
+L CONN_02X20 J361
+U 1 1 5A3E73A7
+P 10700 6250
+F 0 "J361" H 10700 7300 50  0000 C CNN
+F 1 "NEIGHBOR1_btm_A" V 10700 6250 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20-LC-SMD-2" H 10700 5300 60  0001 C CNN
+F 3 "" H 10700 5300 60  0000 C CNN
+F 4 "Samtec" H 10700 6250 60  0001 C CNN "Manufacturer"
+F 5 "TSM-120-01-T-DV-LC" H 10700 6250 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 10700 6250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 10700 6250 60  0001 C CNN "Note"
+	1    10700 6250
+	0    -1   -1   0   
+$EndComp
+Text Label 9850 5800 3    40   ~ 0
+P0_0
+Text Label 9850 6700 1    40   ~ 0
+P4_9
+Text Label 9950 5800 3    40   ~ 0
+P0_1
+Text Label 9950 6700 1    40   ~ 0
+P4_10
+Text Label 10050 5800 3    40   ~ 0
+P5_0
+Text Label 10050 6700 1    40   ~ 0
+P1_0
+Text Label 10150 6700 1    40   ~ 0
+P5_1
+Text Label 10150 5800 3    40   ~ 0
+P1_1
+Text Label 10250 5800 3    40   ~ 0
+P1_2
+Text Label 11650 5800 3    40   ~ 0
+P1_3
+Text Label 10350 5800 3    40   ~ 0
+P5_2
+Text Label 11650 6700 1    40   ~ 0
+P1_4
+Text Label 10350 6700 1    40   ~ 0
+P1_5
+Text Label 10450 5800 3    40   ~ 0
+P1_6
+Text Label 10450 6700 1    40   ~ 0
+P1_7
+Text Label 10550 5800 3    40   ~ 0
+P1_8
+Text Label 10550 6700 1    40   ~ 0
+P1_9
+Text Label 10650 5800 3    40   ~ 0
+P1_10
+Text Label 10650 6700 1    40   ~ 0
+P5_3
+Text Label 10750 5800 3    40   ~ 0
+P1_11
+Text Label 10750 6700 1    40   ~ 0
+P1_12
+Text Label 10850 5800 3    40   ~ 0
+P5_4
+Text Label 10850 6700 1    40   ~ 0
+P5_5
+Text Label 10950 5800 3    40   ~ 0
+P1_13
+Text Label 10950 6700 1    40   ~ 0
+P1_14
+Text Label 11050 5800 3    40   ~ 0
+P1_15
+Text Label 11050 6700 1    40   ~ 0
+P5_6
+Text Label 11150 5800 3    40   ~ 0
+P1_16
+Text Label 11150 6700 1    40   ~ 0
+P5_7
+Text Label 11250 5800 3    40   ~ 0
+P1_17
+Text Label 11250 6700 1    40   ~ 0
+P1_18
+Text Label 11550 5800 3    40   ~ 0
+P1_19
+Text Label 11350 6700 1    40   ~ 0
+P9_5
+Text Label 11550 6700 1    40   ~ 0
+P1_20
+Text Label 11350 5800 3    40   ~ 0
+P9_6
+Text Label 10250 6700 1    40   ~ 0
+CLK0
+Text Label 11450 5800 3    40   ~ 0
+P6_0
+Text Label 11450 6700 1    40   ~ 0
+P2_0
+Text Notes 11650 5750 1    40   ~ 0
+MISO
+Text Notes 11650 6750 3    40   ~ 0
+MOSI
+Text Notes 11550 5750 1    40   ~ 0
+SCK
+Text Notes 11550 6750 3    40   ~ 0
+SSEL
+Text Notes 10150 5750 1    40   ~ 0
+BOOT
+Text Notes 10250 5600 3    40   ~ 0
+BOOT
+Wire Wire Line
+	9750 6700 9750 6500
+Wire Wire Line
+	9750 6000 9750 5800
+Wire Wire Line
+	9850 5650 9850 6000
+Wire Wire Line
+	9850 6500 9850 6850
+Wire Wire Line
+	9950 6500 9950 6850
+Wire Wire Line
+	10050 6500 10050 6850
+Wire Wire Line
+	10150 6500 10150 6850
+Wire Wire Line
+	10250 6500 10250 6850
+Wire Wire Line
+	10350 6500 10350 6850
+Wire Wire Line
+	10450 6500 10450 6850
+Wire Wire Line
+	10550 6500 10550 6850
+Wire Wire Line
+	10650 6500 10650 6850
+Wire Wire Line
+	10750 6500 10750 6850
+Wire Wire Line
+	10850 6500 10850 6850
+Wire Wire Line
+	10950 6500 10950 6850
+Wire Wire Line
+	11050 6500 11050 6850
+Wire Wire Line
+	11150 6500 11150 6850
+Wire Wire Line
+	11250 6500 11250 6850
+Wire Wire Line
+	11350 6500 11350 6850
+Wire Wire Line
+	11450 6500 11450 6850
+Wire Wire Line
+	11450 5650 11450 6000
+Wire Wire Line
+	11350 5650 11350 6000
+Wire Wire Line
+	11250 5650 11250 6000
+Wire Wire Line
+	11150 5650 11150 6000
+Wire Wire Line
+	11050 5650 11050 6000
+Wire Wire Line
+	10950 5650 10950 6000
+Wire Wire Line
+	10850 5650 10850 6000
+Wire Wire Line
+	10750 5650 10750 6000
+Wire Wire Line
+	10650 5650 10650 6000
+Wire Wire Line
+	10550 5650 10550 6000
+Wire Wire Line
+	10450 5650 10450 6000
+Wire Wire Line
+	10350 5650 10350 6000
+Wire Wire Line
+	10250 5650 10250 6000
+Wire Wire Line
+	10150 5650 10150 6000
+Wire Wire Line
+	10050 5650 10050 6000
+Wire Wire Line
+	9950 6000 9950 5800
+Wire Wire Line
+	11550 6500 11550 6850
+Wire Wire Line
+	11650 6500 11650 6800
+Wire Wire Line
+	11650 5700 11650 6000
+Wire Wire Line
+	11550 5650 11550 6000
+$Comp
+L TEST_1P J312
+U 1 1 5A3E7401
+P 9750 5800
+F 0 "J312" H 9750 6070 50  0000 C CNN
+F 1 "TEST_1P" H 9750 6000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 5800 50  0001 C CNN
+F 3 "" H 9950 5800 50  0001 C CNN
+	1    9750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P J313
+U 1 1 5A3E747F
+P 9750 6700
+F 0 "J313" H 9750 6970 50  0000 C CNN
+F 1 "TEST_1P" H 9750 6900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 6700 50  0001 C CNN
+F 3 "" H 9950 6700 50  0001 C CNN
+	1    9750 6700
+	-1   0    0    1   
+$EndComp
+Text Label 5500 8100 1    40   ~ 0
+P6_1
+Text Label 5400 8100 1    40   ~ 0
+P6_2
+Text Label 3900 8100 1    40   ~ 0
+P6_4
+Text Label 4000 8100 1    40   ~ 0
+P6_5
+Text Label 5300 8100 1    40   ~ 0
+P6_9
+Text Label 5200 8100 1    40   ~ 0
+P6_10
+Text Label 4300 8100 1    40   ~ 0
+P2_9
+Text Label 5100 8100 1    40   ~ 0
+P2_10
+Text Label 5000 8100 1    40   ~ 0
+P2_11
+Text Label 4400 8100 1    40   ~ 0
+P2_12
+Text Label 4500 8100 1    40   ~ 0
+P2_13
+$Comp
+L CONN_01X20 J156
+U 1 1 5A3F3C26
+P 4750 7550
+F 0 "J156" H 4750 8600 50  0000 C CNN
+F 1 "BONUS_ROW_top" V 4850 7550 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20-SMD" H 4750 7550 60  0001 C CNN
+F 3 "" H 4750 7550 60  0000 C CNN
+F 4 "Samtec" H 4750 7550 60  0001 C CNN "Manufacturer"
+F 5 "tsw-120-08-g-s-ra" H 4750 7550 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 4750 7550 60  0001 C CNN "Description"
+F 7 "DNP" V 4750 7550 60  0000 C CNN "Note"
+	1    4750 7550
+	0    -1   -1   0   
+$EndComp
+Text Label 4200 8100 1    40   ~ 0
+ADC0_2
+Text Label 4100 8100 1    40   ~ 0
+ADC0_5
+Text Label 4900 8100 1    40   ~ 0
+VBAT
+Text Label 4800 8100 1    40   ~ 0
+RESET
+Text Label 4600 8100 1    40   ~ 0
+RTC_ALARM
+Wire Wire Line
+	5500 8100 5500 7750
+Wire Wire Line
+	5400 8100 5400 7750
+Wire Wire Line
+	5300 8100 5300 7750
+Wire Wire Line
+	5200 8100 5200 7750
+Wire Wire Line
+	5100 8100 5100 7750
+Wire Wire Line
+	5000 8100 5000 7750
+Wire Wire Line
+	4900 8100 4900 7750
+Wire Wire Line
+	4800 8100 4800 7750
+Wire Wire Line
+	4600 8100 4600 7750
+Wire Wire Line
+	4500 8100 4500 7750
+Wire Wire Line
+	4400 8100 4400 7750
+Wire Wire Line
+	3800 8100 3800 7750
+Wire Wire Line
+	5700 7750 5700 8100
+Wire Wire Line
+	4300 8100 4300 7750
+Wire Wire Line
+	4200 8100 4200 7750
+Wire Wire Line
+	4100 8100 4100 7750
+Wire Wire Line
+	4000 8100 4000 7750
+Wire Wire Line
+	3900 8100 3900 7750
+Wire Wire Line
+	5600 8100 5600 7750
+Wire Wire Line
+	4700 8100 4700 7750
+Text Label 9050 8100 1    40   ~ 0
+P6_1
+Text Label 8950 8100 1    40   ~ 0
+P6_2
+Text Label 7450 8100 1    40   ~ 0
+P6_4
+Text Label 7550 8100 1    40   ~ 0
+P6_5
+Text Label 8850 8100 1    40   ~ 0
+P6_9
+Text Label 8750 8100 1    40   ~ 0
+P6_10
+Text Label 7850 8100 1    40   ~ 0
+P2_9
+Text Label 8650 8100 1    40   ~ 0
+P2_10
+Text Label 8550 8100 1    40   ~ 0
+P2_11
+Text Label 7950 8100 1    40   ~ 0
+P2_12
+Text Label 8050 8100 1    40   ~ 0
+P2_13
+$Comp
+L CONN_01X20 J259
+U 1 1 5A3F8568
+P 8300 7550
+F 0 "J259" H 8300 8600 50  0000 C CNN
+F 1 "BONUS_ROW_btm" V 8400 7550 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20-SMD" H 8300 7550 60  0001 C CNN
+F 3 "" H 8300 7550 60  0000 C CNN
+F 4 "Samtec" H 8300 7550 60  0001 C CNN "Manufacturer"
+F 5 "SSW-120-22-G-S-RA" H 8300 7550 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 8300 7550 60  0001 C CNN "Description"
+F 7 "DNP" V 8300 7550 60  0000 C CNN "Note"
+	1    8300 7550
+	0    -1   -1   0   
+$EndComp
+Text Label 7750 8100 1    40   ~ 0
+ADC0_2
+Text Label 7650 8100 1    40   ~ 0
+ADC0_5
+Text Label 8450 8100 1    40   ~ 0
+VBAT
+Text Label 8350 8100 1    40   ~ 0
+RESET
+Text Label 8150 8100 1    40   ~ 0
+RTC_ALARM
+Wire Wire Line
+	9050 8100 9050 7750
+Wire Wire Line
+	8950 8100 8950 7750
+Wire Wire Line
+	8850 8100 8850 7750
+Wire Wire Line
+	8750 8100 8750 7750
+Wire Wire Line
+	8650 8100 8650 7750
+Wire Wire Line
+	8550 8100 8550 7750
+Wire Wire Line
+	8450 8100 8450 7750
+Wire Wire Line
+	8350 8100 8350 7750
+Wire Wire Line
+	8150 8100 8150 7750
+Wire Wire Line
+	8050 8100 8050 7750
+Wire Wire Line
+	7950 8100 7950 7750
+Wire Wire Line
+	7350 8100 7350 7750
+Wire Wire Line
+	9250 7750 9250 8100
+Wire Wire Line
+	7850 8100 7850 7750
+Wire Wire Line
+	7750 8100 7750 7750
+Wire Wire Line
+	7650 8100 7650 7750
+Wire Wire Line
+	7550 8100 7550 7750
+Wire Wire Line
+	7450 8100 7450 7750
+Wire Wire Line
+	9150 8100 9150 7750
+Wire Wire Line
+	8250 8100 8250 7750
+Text Label 11450 8100 1    40   ~ 0
+P6_1
+Text Label 11350 8100 1    40   ~ 0
+P6_2
+Text Label 9850 8100 1    40   ~ 0
+P6_4
+Text Label 9950 8100 1    40   ~ 0
+P6_5
+Text Label 11250 8100 1    40   ~ 0
+P6_9
+Text Label 11150 8100 1    40   ~ 0
+P6_10
+Text Label 10250 8100 1    40   ~ 0
+P2_9
+Text Label 11050 8100 1    40   ~ 0
+P2_10
+Text Label 10950 8100 1    40   ~ 0
+P2_11
+Text Label 10350 8100 1    40   ~ 0
+P2_12
+Text Label 10450 8100 1    40   ~ 0
+P2_13
+$Comp
+L CONN_01X20 J362
+U 1 1 5A3F860D
+P 10700 7550
+F 0 "J362" H 10700 8600 50  0000 C CNN
+F 1 "BONUS_ROW_top" V 10800 7550 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20-SMD-RA" H 10700 7550 60  0001 C CNN
+F 3 "" H 10700 7550 60  0000 C CNN
+F 4 "Samtec" H 10700 7550 60  0001 C CNN "Manufacturer"
+F 5 "tsw-120-08-g-s-ra" H 10700 7550 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 10700 7550 60  0001 C CNN "Description"
+F 7 "DNP" V 10700 7550 60  0000 C CNN "Note"
+	1    10700 7550
+	0    -1   -1   0   
+$EndComp
+Text Label 10150 8100 1    40   ~ 0
+ADC0_2
+Text Label 10050 8100 1    40   ~ 0
+ADC0_5
+Text Label 10850 8100 1    40   ~ 0
+VBAT
+Text Label 10750 8100 1    40   ~ 0
+RESET
+Text Label 10550 8100 1    40   ~ 0
+RTC_ALARM
+Wire Wire Line
+	11450 8100 11450 7750
+Wire Wire Line
+	11350 8100 11350 7750
+Wire Wire Line
+	11250 8100 11250 7750
+Wire Wire Line
+	11150 8100 11150 7750
+Wire Wire Line
+	11050 8100 11050 7750
+Wire Wire Line
+	10950 8100 10950 7750
+Wire Wire Line
+	10850 8100 10850 7750
+Wire Wire Line
+	10750 8100 10750 7750
+Wire Wire Line
+	10550 8100 10550 7750
+Wire Wire Line
+	10450 8100 10450 7750
+Wire Wire Line
+	10350 8100 10350 7750
+Wire Wire Line
+	9750 8100 9750 7750
+Wire Wire Line
+	11650 7750 11650 8100
+Wire Wire Line
+	10250 8100 10250 7750
+Wire Wire Line
+	10150 8100 10150 7750
+Wire Wire Line
+	10050 8100 10050 7750
+Wire Wire Line
+	9950 8100 9950 7750
+Wire Wire Line
+	9850 8100 9850 7750
+Wire Wire Line
+	11550 8100 11550 7750
+Wire Wire Line
+	10650 8100 10650 7750
+$Comp
+L TEST_1P J314
+U 1 1 5A3F862C
+P 9750 8100
+F 0 "J314" H 9750 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9750 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 8100 50  0001 C CNN
+F 3 "" H 9950 8100 50  0001 C CNN
+	1    9750 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J319
+U 1 1 5A3F8632
+P 9850 8100
+F 0 "J319" H 9850 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9850 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10050 8100 50  0001 C CNN
+F 3 "" H 10050 8100 50  0001 C CNN
+	1    9850 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J324
+U 1 1 5A3F8638
+P 9950 8100
+F 0 "J324" H 9950 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9950 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10150 8100 50  0001 C CNN
+F 3 "" H 10150 8100 50  0001 C CNN
+	1    9950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J329
+U 1 1 5A3F863E
+P 10050 8100
+F 0 "J329" H 10050 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10050 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10250 8100 50  0001 C CNN
+F 3 "" H 10250 8100 50  0001 C CNN
+	1    10050 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J334
+U 1 1 5A3F8644
+P 10150 8100
+F 0 "J334" H 10150 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10150 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10350 8100 50  0001 C CNN
+F 3 "" H 10350 8100 50  0001 C CNN
+	1    10150 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J339
+U 1 1 5A3F864A
+P 10250 8100
+F 0 "J339" H 10250 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10250 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10450 8100 50  0001 C CNN
+F 3 "" H 10450 8100 50  0001 C CNN
+	1    10250 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J344
+U 1 1 5A3F8650
+P 10350 8100
+F 0 "J344" H 10350 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10350 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10550 8100 50  0001 C CNN
+F 3 "" H 10550 8100 50  0001 C CNN
+	1    10350 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J349
+U 1 1 5A3F8656
+P 10450 8100
+F 0 "J349" H 10450 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10450 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10650 8100 50  0001 C CNN
+F 3 "" H 10650 8100 50  0001 C CNN
+	1    10450 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J354
+U 1 1 5A3F865C
+P 10550 8100
+F 0 "J354" H 10550 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10550 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10750 8100 50  0001 C CNN
+F 3 "" H 10750 8100 50  0001 C CNN
+	1    10550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J359
+U 1 1 5A3F8662
+P 10650 8100
+F 0 "J359" H 10650 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10650 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10850 8100 50  0001 C CNN
+F 3 "" H 10850 8100 50  0001 C CNN
+	1    10650 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J367
+U 1 1 5A3F8668
+P 10750 8100
+F 0 "J367" H 10750 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10750 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10950 8100 50  0001 C CNN
+F 3 "" H 10950 8100 50  0001 C CNN
+	1    10750 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J372
+U 1 1 5A3F866E
+P 10850 8100
+F 0 "J372" H 10850 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10850 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11050 8100 50  0001 C CNN
+F 3 "" H 11050 8100 50  0001 C CNN
+	1    10850 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J377
+U 1 1 5A3F8674
+P 10950 8100
+F 0 "J377" H 10950 8370 50  0000 C CNN
+F 1 "TEST_1P" H 10950 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11150 8100 50  0001 C CNN
+F 3 "" H 11150 8100 50  0001 C CNN
+	1    10950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J382
+U 1 1 5A3F867A
+P 11050 8100
+F 0 "J382" H 11050 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11050 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11250 8100 50  0001 C CNN
+F 3 "" H 11250 8100 50  0001 C CNN
+	1    11050 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J387
+U 1 1 5A3F8680
+P 11150 8100
+F 0 "J387" H 11150 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11150 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11350 8100 50  0001 C CNN
+F 3 "" H 11350 8100 50  0001 C CNN
+	1    11150 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J392
+U 1 1 5A3F8686
+P 11250 8100
+F 0 "J392" H 11250 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11250 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11450 8100 50  0001 C CNN
+F 3 "" H 11450 8100 50  0001 C CNN
+	1    11250 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J397
+U 1 1 5A3F868C
+P 11350 8100
+F 0 "J397" H 11350 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11350 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11550 8100 50  0001 C CNN
+F 3 "" H 11550 8100 50  0001 C CNN
+	1    11350 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J402
+U 1 1 5A3F8692
+P 11450 8100
+F 0 "J402" H 11450 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11450 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11650 8100 50  0001 C CNN
+F 3 "" H 11650 8100 50  0001 C CNN
+	1    11450 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J407
+U 1 1 5A3F8698
+P 11550 8100
+F 0 "J407" H 11550 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11550 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11750 8100 50  0001 C CNN
+F 3 "" H 11750 8100 50  0001 C CNN
+	1    11550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J412
+U 1 1 5A3F869E
+P 11650 8100
+F 0 "J412" H 11650 8370 50  0000 C CNN
+F 1 "TEST_1P" H 11650 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 11850 8100 50  0001 C CNN
+F 3 "" H 11850 8100 50  0001 C CNN
+	1    11650 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J309
+U 1 1 5A3F85F9
+P 9250 8100
+F 0 "J309" H 9250 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9250 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9450 8100 50  0001 C CNN
+F 3 "" H 9450 8100 50  0001 C CNN
+	1    9250 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J304
+U 1 1 5A3F85F3
+P 9150 8100
+F 0 "J304" H 9150 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9150 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9350 8100 50  0001 C CNN
+F 3 "" H 9350 8100 50  0001 C CNN
+	1    9150 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J299
+U 1 1 5A3F85ED
+P 9050 8100
+F 0 "J299" H 9050 8370 50  0000 C CNN
+F 1 "TEST_1P" H 9050 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9250 8100 50  0001 C CNN
+F 3 "" H 9250 8100 50  0001 C CNN
+	1    9050 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J294
+U 1 1 5A3F85E7
+P 8950 8100
+F 0 "J294" H 8950 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8950 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9150 8100 50  0001 C CNN
+F 3 "" H 9150 8100 50  0001 C CNN
+	1    8950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J289
+U 1 1 5A3F85E1
+P 8850 8100
+F 0 "J289" H 8850 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8850 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9050 8100 50  0001 C CNN
+F 3 "" H 9050 8100 50  0001 C CNN
+	1    8850 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J284
+U 1 1 5A3F85DB
+P 8750 8100
+F 0 "J284" H 8750 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8750 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8950 8100 50  0001 C CNN
+F 3 "" H 8950 8100 50  0001 C CNN
+	1    8750 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J279
+U 1 1 5A3F85D5
+P 8650 8100
+F 0 "J279" H 8650 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8650 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8850 8100 50  0001 C CNN
+F 3 "" H 8850 8100 50  0001 C CNN
+	1    8650 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J274
+U 1 1 5A3F85CF
+P 8550 8100
+F 0 "J274" H 8550 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8550 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8750 8100 50  0001 C CNN
+F 3 "" H 8750 8100 50  0001 C CNN
+	1    8550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J269
+U 1 1 5A3F85C9
+P 8450 8100
+F 0 "J269" H 8450 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8450 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8650 8100 50  0001 C CNN
+F 3 "" H 8650 8100 50  0001 C CNN
+	1    8450 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J264
+U 1 1 5A3F85C3
+P 8350 8100
+F 0 "J264" H 8350 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8350 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8550 8100 50  0001 C CNN
+F 3 "" H 8550 8100 50  0001 C CNN
+	1    8350 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J256
+U 1 1 5A3F85BD
+P 8250 8100
+F 0 "J256" H 8250 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8250 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8450 8100 50  0001 C CNN
+F 3 "" H 8450 8100 50  0001 C CNN
+	1    8250 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J251
+U 1 1 5A3F85B7
+P 8150 8100
+F 0 "J251" H 8150 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8150 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8350 8100 50  0001 C CNN
+F 3 "" H 8350 8100 50  0001 C CNN
+	1    8150 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J246
+U 1 1 5A3F85B1
+P 8050 8100
+F 0 "J246" H 8050 8370 50  0000 C CNN
+F 1 "TEST_1P" H 8050 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8250 8100 50  0001 C CNN
+F 3 "" H 8250 8100 50  0001 C CNN
+	1    8050 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J241
+U 1 1 5A3F85AB
+P 7950 8100
+F 0 "J241" H 7950 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7950 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8150 8100 50  0001 C CNN
+F 3 "" H 8150 8100 50  0001 C CNN
+	1    7950 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J236
+U 1 1 5A3F85A5
+P 7850 8100
+F 0 "J236" H 7850 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7850 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8050 8100 50  0001 C CNN
+F 3 "" H 8050 8100 50  0001 C CNN
+	1    7850 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J231
+U 1 1 5A3F859F
+P 7750 8100
+F 0 "J231" H 7750 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7750 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7950 8100 50  0001 C CNN
+F 3 "" H 7950 8100 50  0001 C CNN
+	1    7750 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J226
+U 1 1 5A3F8599
+P 7650 8100
+F 0 "J226" H 7650 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7650 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7850 8100 50  0001 C CNN
+F 3 "" H 7850 8100 50  0001 C CNN
+	1    7650 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J221
+U 1 1 5A3F8593
+P 7550 8100
+F 0 "J221" H 7550 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7550 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7750 8100 50  0001 C CNN
+F 3 "" H 7750 8100 50  0001 C CNN
+	1    7550 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J216
+U 1 1 5A3F858D
+P 7450 8100
+F 0 "J216" H 7450 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7450 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7650 8100 50  0001 C CNN
+F 3 "" H 7650 8100 50  0001 C CNN
+	1    7450 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J211
+U 1 1 5A3F8587
+P 7350 8100
+F 0 "J211" H 7350 8370 50  0000 C CNN
+F 1 "TEST_1P" H 7350 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 8100 50  0001 C CNN
+F 3 "" H 7550 8100 50  0001 C CNN
+	1    7350 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J206
+U 1 1 5A3F3CB7
+P 5700 8100
+F 0 "J206" H 5700 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5700 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 8100 50  0001 C CNN
+F 3 "" H 5900 8100 50  0001 C CNN
+	1    5700 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J201
+U 1 1 5A3F3CB1
+P 5600 8100
+F 0 "J201" H 5600 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5600 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5800 8100 50  0001 C CNN
+F 3 "" H 5800 8100 50  0001 C CNN
+	1    5600 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J196
+U 1 1 5A3F3CAB
+P 5500 8100
+F 0 "J196" H 5500 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5500 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5700 8100 50  0001 C CNN
+F 3 "" H 5700 8100 50  0001 C CNN
+	1    5500 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J191
+U 1 1 5A3F3CA5
+P 5400 8100
+F 0 "J191" H 5400 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5400 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5600 8100 50  0001 C CNN
+F 3 "" H 5600 8100 50  0001 C CNN
+	1    5400 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J186
+U 1 1 5A3F3C9F
+P 5300 8100
+F 0 "J186" H 5300 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5300 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 8100 50  0001 C CNN
+F 3 "" H 5500 8100 50  0001 C CNN
+	1    5300 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J181
+U 1 1 5A3F3C99
+P 5200 8100
+F 0 "J181" H 5200 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5200 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5400 8100 50  0001 C CNN
+F 3 "" H 5400 8100 50  0001 C CNN
+	1    5200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J176
+U 1 1 5A3F3C93
+P 5100 8100
+F 0 "J176" H 5100 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5100 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 8100 50  0001 C CNN
+F 3 "" H 5300 8100 50  0001 C CNN
+	1    5100 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J171
+U 1 1 5A3F3C8D
+P 5000 8100
+F 0 "J171" H 5000 8370 50  0000 C CNN
+F 1 "TEST_1P" H 5000 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 8100 50  0001 C CNN
+F 3 "" H 5200 8100 50  0001 C CNN
+	1    5000 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J166
+U 1 1 5A3F3C87
+P 4900 8100
+F 0 "J166" H 4900 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4900 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5100 8100 50  0001 C CNN
+F 3 "" H 5100 8100 50  0001 C CNN
+	1    4900 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J161
+U 1 1 5A3F3C81
+P 4800 8100
+F 0 "J161" H 4800 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4800 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5000 8100 50  0001 C CNN
+F 3 "" H 5000 8100 50  0001 C CNN
+	1    4800 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J153
+U 1 1 5A3F3C7B
+P 4700 8100
+F 0 "J153" H 4700 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4700 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4900 8100 50  0001 C CNN
+F 3 "" H 4900 8100 50  0001 C CNN
+	1    4700 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J148
+U 1 1 5A3F3C75
+P 4600 8100
+F 0 "J148" H 4600 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4600 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 8100 50  0001 C CNN
+F 3 "" H 4800 8100 50  0001 C CNN
+	1    4600 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J143
+U 1 1 5A3F3C6F
+P 4500 8100
+F 0 "J143" H 4500 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4500 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 8100 50  0001 C CNN
+F 3 "" H 4700 8100 50  0001 C CNN
+	1    4500 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J138
+U 1 1 5A3F3C69
+P 4400 8100
+F 0 "J138" H 4400 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4400 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4600 8100 50  0001 C CNN
+F 3 "" H 4600 8100 50  0001 C CNN
+	1    4400 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J133
+U 1 1 5A3F3C63
+P 4300 8100
+F 0 "J133" H 4300 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4300 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4500 8100 50  0001 C CNN
+F 3 "" H 4500 8100 50  0001 C CNN
+	1    4300 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J128
+U 1 1 5A3F3C5D
+P 4200 8100
+F 0 "J128" H 4200 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4200 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4400 8100 50  0001 C CNN
+F 3 "" H 4400 8100 50  0001 C CNN
+	1    4200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J123
+U 1 1 5A3F3C57
+P 4100 8100
+F 0 "J123" H 4100 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4100 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4300 8100 50  0001 C CNN
+F 3 "" H 4300 8100 50  0001 C CNN
+	1    4100 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J118
+U 1 1 5A3F3C51
+P 4000 8100
+F 0 "J118" H 4000 8370 50  0000 C CNN
+F 1 "TEST_1P" H 4000 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 8100 50  0001 C CNN
+F 3 "" H 4200 8100 50  0001 C CNN
+	1    4000 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J113
+U 1 1 5A3F3C4B
+P 3900 8100
+F 0 "J113" H 3900 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3900 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 8100 50  0001 C CNN
+F 3 "" H 4100 8100 50  0001 C CNN
+	1    3900 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J108
+U 1 1 5A3F3C45
+P 3800 8100
+F 0 "J108" H 3800 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3800 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4000 8100 50  0001 C CNN
+F 3 "" H 4000 8100 50  0001 C CNN
+	1    3800 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J103
+U 1 1 5A3F0EA6
+P 3300 8100
+F 0 "J103" H 3300 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3300 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3500 8100 50  0001 C CNN
+F 3 "" H 3500 8100 50  0001 C CNN
+	1    3300 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J98
+U 1 1 5A3F0A6E
+P 3200 8100
+F 0 "J98" H 3200 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3200 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 8100 50  0001 C CNN
+F 3 "" H 3400 8100 50  0001 C CNN
+	1    3200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J93
+U 1 1 5A3F0641
+P 3100 8100
+F 0 "J93" H 3100 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3100 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3300 8100 50  0001 C CNN
+F 3 "" H 3300 8100 50  0001 C CNN
+	1    3100 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J88
+U 1 1 5A3F0213
+P 3000 8100
+F 0 "J88" H 3000 8370 50  0000 C CNN
+F 1 "TEST_1P" H 3000 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3200 8100 50  0001 C CNN
+F 3 "" H 3200 8100 50  0001 C CNN
+	1    3000 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J83
+U 1 1 5A3EFDEC
+P 2900 8100
+F 0 "J83" H 2900 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2900 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 8100 50  0001 C CNN
+F 3 "" H 3100 8100 50  0001 C CNN
+	1    2900 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J78
+U 1 1 5A3EF9C8
+P 2800 8100
+F 0 "J78" H 2800 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2800 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 8100 50  0001 C CNN
+F 3 "" H 3000 8100 50  0001 C CNN
+	1    2800 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J73
+U 1 1 5A3EF59F
+P 2700 8100
+F 0 "J73" H 2700 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2700 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2900 8100 50  0001 C CNN
+F 3 "" H 2900 8100 50  0001 C CNN
+	1    2700 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J68
+U 1 1 5A3EF181
+P 2600 8100
+F 0 "J68" H 2600 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2600 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2800 8100 50  0001 C CNN
+F 3 "" H 2800 8100 50  0001 C CNN
+	1    2600 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J63
+U 1 1 5A3EED5E
+P 2500 8100
+F 0 "J63" H 2500 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2500 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2700 8100 50  0001 C CNN
+F 3 "" H 2700 8100 50  0001 C CNN
+	1    2500 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J58
+U 1 1 5A3EE946
+P 2400 8100
+F 0 "J58" H 2400 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2400 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 8100 50  0001 C CNN
+F 3 "" H 2600 8100 50  0001 C CNN
+	1    2400 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J50
+U 1 1 5A3EE531
+P 2300 8100
+F 0 "J50" H 2300 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2300 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2500 8100 50  0001 C CNN
+F 3 "" H 2500 8100 50  0001 C CNN
+	1    2300 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J45
+U 1 1 5A3EE11F
+P 2200 8100
+F 0 "J45" H 2200 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2200 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2400 8100 50  0001 C CNN
+F 3 "" H 2400 8100 50  0001 C CNN
+	1    2200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J40
+U 1 1 5A3EDD10
+P 2100 8100
+F 0 "J40" H 2100 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2100 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 8100 50  0001 C CNN
+F 3 "" H 2300 8100 50  0001 C CNN
+	1    2100 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J35
+U 1 1 5A3ED904
+P 2000 8100
+F 0 "J35" H 2000 8370 50  0000 C CNN
+F 1 "TEST_1P" H 2000 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2200 8100 50  0001 C CNN
+F 3 "" H 2200 8100 50  0001 C CNN
+	1    2000 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J30
+U 1 1 5A3ED4F5
+P 1900 8100
+F 0 "J30" H 1900 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1900 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 8100 50  0001 C CNN
+F 3 "" H 2100 8100 50  0001 C CNN
+	1    1900 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J25
+U 1 1 5A3ED0EF
+P 1800 8100
+F 0 "J25" H 1800 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1800 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 8100 50  0001 C CNN
+F 3 "" H 2000 8100 50  0001 C CNN
+	1    1800 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J20
+U 1 1 5A3ECCE6
+P 1700 8100
+F 0 "J20" H 1700 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1700 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 8100 50  0001 C CNN
+F 3 "" H 1900 8100 50  0001 C CNN
+	1    1700 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J15
+U 1 1 5A3EC8E2
+P 1600 8100
+F 0 "J15" H 1600 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1600 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 8100 50  0001 C CNN
+F 3 "" H 1800 8100 50  0001 C CNN
+	1    1600 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J10
+U 1 1 5A3EC4E5
+P 1500 8100
+F 0 "J10" H 1500 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1500 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1700 8100 50  0001 C CNN
+F 3 "" H 1700 8100 50  0001 C CNN
+	1    1500 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST_1P J5
+U 1 1 5A3EBC95
+P 1400 8100
+F 0 "J5" H 1400 8370 50  0000 C CNN
+F 1 "TEST_1P" H 1400 8300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1600 8100 50  0001 C CNN
+F 3 "" H 1600 8100 50  0001 C CNN
+F 4 "DNP" H 1400 8100 60  0001 C CNN "Note"
+	1    1400 8100
+	-1   0    0    1   
+$EndComp
+Text Notes 13050 2800 0    60   ~ 0
+Space in between SMT pins on female \nheader: 0.93mm up to 3.93mm\n\nSpace in between SMT pins on male\nheader: 2.1mm
+Wire Wire Line
+	7450 3250 7550 3250
+Wire Wire Line
+	7650 3250 7750 3250
+Wire Wire Line
+	7850 3250 7950 3250
+Wire Wire Line
+	8050 3250 8150 3250
+Wire Wire Line
+	8250 3250 8350 3250
+Wire Wire Line
+	8450 3250 8550 3250
+Wire Wire Line
+	8650 3250 8750 3250
+Wire Wire Line
+	8850 3250 8950 3250
+Wire Wire Line
+	9050 3250 9150 3250
+Wire Wire Line
+	7450 4450 7550 4450
+Wire Wire Line
+	7650 4450 7750 4450
+Wire Wire Line
+	8250 4450 8350 4450
+Wire Wire Line
+	8450 4450 8550 4450
+Wire Wire Line
+	8650 4450 8750 4450
+Wire Wire Line
+	8850 4450 8950 4450
+Wire Wire Line
+	9050 4450 9150 4450
+Wire Wire Line
+	9850 3250 9950 3250
+Wire Wire Line
+	10050 3250 10150 3250
+Wire Wire Line
+	10250 3250 10350 3250
+Wire Wire Line
+	10450 3250 10550 3250
+Wire Wire Line
+	10650 3250 10750 3250
+Wire Wire Line
+	10850 3250 10950 3250
+Wire Wire Line
+	11050 3250 11150 3250
+Wire Wire Line
+	11250 3250 11350 3250
+Wire Wire Line
+	11450 3250 11550 3250
+Wire Wire Line
+	9850 4450 9950 4450
+Wire Wire Line
+	10050 4450 10150 4450
+Wire Wire Line
+	10650 4450 10750 4450
+Wire Wire Line
+	10850 4450 10950 4450
+Wire Wire Line
+	11050 4450 11150 4450
+Wire Wire Line
+	11250 4450 11350 4450
+Wire Wire Line
+	11450 4450 11550 4450
+Wire Wire Line
+	7450 5650 7550 5650
+Wire Wire Line
+	8050 5650 8150 5650
+Wire Wire Line
+	8250 5650 8350 5650
+Wire Wire Line
+	8450 5650 8550 5650
+Wire Wire Line
+	8650 5650 8750 5650
+Wire Wire Line
+	8850 5650 8950 5650
+Wire Wire Line
+	7550 6850 7450 6850
+Wire Wire Line
+	7750 6850 7650 6850
+Wire Wire Line
+	7950 6850 7850 6850
+Wire Wire Line
+	8150 6850 8050 6850
+Wire Wire Line
+	8350 6850 8250 6850
+Wire Wire Line
+	8550 6850 8450 6850
+Wire Wire Line
+	8750 6850 8650 6850
+Wire Wire Line
+	8950 6850 8850 6850
+Wire Wire Line
+	7850 4450 7950 4450
+Wire Wire Line
+	8050 4450 8150 4450
+Wire Wire Line
+	9250 4400 9350 4400
+Wire Wire Line
+	9350 4400 9350 3300
+Wire Wire Line
+	9350 3300 9250 3300
+Wire Wire Line
+	10250 4450 10350 4450
+Wire Wire Line
+	10450 4450 10550 4450
+Wire Wire Line
+	11650 3300 11750 3300
+Wire Wire Line
+	11750 3300 11750 4400
+Wire Wire Line
+	11750 4400 11650 4400
+Text Notes 7850 5600 3    40   ~ 0
+BOOT
+Wire Wire Line
+	7650 5650 7750 5650
+Wire Wire Line
+	7850 5650 7950 5650
+Wire Wire Line
+	9050 5650 9150 5650
+Wire Wire Line
+	9150 6850 9050 6850
+Wire Wire Line
+	9250 5700 9350 5700
+Wire Wire Line
+	9350 5700 9350 6750
+Wire Wire Line
+	9350 6750 9250 6750
+Wire Wire Line
+	9850 5650 9950 5650
+Wire Wire Line
+	9950 5650 9950 5850
+Wire Wire Line
+	10050 5650 10150 5650
+Wire Wire Line
+	10250 5650 10350 5650
+Wire Wire Line
+	10450 5650 10550 5650
+Wire Wire Line
+	10650 5650 10750 5650
+Wire Wire Line
+	10850 5650 10950 5650
+Wire Wire Line
+	11050 5650 11150 5650
+Wire Wire Line
+	11250 5650 11350 5650
+Wire Wire Line
+	11450 5650 11550 5650
+Wire Wire Line
+	9950 6850 9850 6850
+Wire Wire Line
+	10150 6850 10050 6850
+Wire Wire Line
+	10350 6850 10250 6850
+Wire Wire Line
+	10550 6850 10450 6850
+Wire Wire Line
+	10750 6850 10650 6850
+Wire Wire Line
+	10950 6850 10850 6850
+Wire Wire Line
+	11150 6850 11050 6850
+Wire Wire Line
+	11350 6850 11250 6850
+Wire Wire Line
+	11550 6850 11450 6850
+Wire Wire Line
+	11650 5700 11750 5700
+Wire Wire Line
+	11750 5700 11750 6800
+Wire Wire Line
+	11750 6800 11650 6800
+$EndSCHEMATC
